@@ -8,7 +8,7 @@ first_answer, second_answer, third_answer = 5 == 5, 5 <= 5, 5 >= 5
 fourth_answer, fifth_answer, sixth_answer = 5 and 5, 5 or 5, 5 is 5
 seventh_answer, eighth_answer = not 5 != 5, not 5 is not 5
 print(f'{first_answer = }, {second_answer = }, {third_answer = }, '
-      f'{fourth_answer = }, {fifth_answer = }, {sixth_answer = }'
+      f'{fourth_answer = }, {fifth_answer = }, {sixth_answer = }, '
       f'{seventh_answer = }, {eighth_answer = }')
 
 # True _ True _ False and or/and/not
