@@ -42,7 +42,6 @@ print(num == num_not)
 print(num != num_not)
 
 print(num is num_not)
-
 print(num is not num_not)
 
 # logic None and 10 - 1
@@ -51,9 +50,7 @@ num_not = None
 some_num = 10 - 1
 
 print(num_not == some_num)
-
 print(num_not != some_num)
 
 print(num_not is some_num)
-
 print(num_not is not some_num)
