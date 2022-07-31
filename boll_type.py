@@ -9,7 +9,7 @@ fourth_answer, fifth_answer, sixth_answer = 5 and 5, 5 or 5, 5 is 5
 nineth_answer = not 5 != 5
 print(f'{first_answer = }, {second_answer = }, {third_answer = }, '
       f'{fourth_answer = }, {fifth_answer = }, {sixth_answer = }'
-      f'{nineth_answer = })
+      f'{nineth_answer = }')
 
 # True _ True _ False and or/and/not
 
