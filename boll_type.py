@@ -39,6 +39,7 @@ print(f'{answer_eight = }')
 num_not = None
 num = 7
 print(num == num_not)
+print(num != num_not)
 
 print(num is num_not)
 
@@ -50,6 +51,8 @@ num_not = None
 some_num = 10 - 1
 
 print(num_not == some_num)
+
+print(num_not != some_num)
 
 print(num_not is some_num)
 
