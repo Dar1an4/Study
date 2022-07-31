@@ -4,9 +4,10 @@ print(3 != 5)
 
 # 5 _ 5
 
-print(5 == 5,
-      5 <= 5,
-      5 >= 5)
+first_answer, second_answer, third_answer = 5 == 5, 5 <= 5, 5 >= 5
+fourth_answer, fifth_answer, sixth_answer = 5 and 5, 5 or 5, 5 is 5
+print(f'{first_answer = }, {second_answer = }, {third_answer = }, '
+      f'{fourth_answer = }, {fifth_answer = }, {sixth_answer = }')
 
 # True _ True _ False and or/and/not
 
