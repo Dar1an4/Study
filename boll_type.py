@@ -48,7 +48,7 @@ print(num is not num_not)
 
 # logic None and 10 - 1
 
-num_not = None
+num_not = ''
 some_num = 10 - 1
 
 print(num_not == some_num)
