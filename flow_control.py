@@ -5,7 +5,7 @@ print(f'Hello, dear {name}\n'
       f" Let's try to show you Pythoculator \n"
       f' You just need enter any Value one by one below, and finally, '
       f' what whe need to do ? ("+","-","/","*", "n ** n1")')
-values = []
+values = []         #  use in later, put here aur values for sorting for comparison
 counter = 0
 while counter == 0:
     value_input_first = input('Enter first value: ')
@@ -22,17 +22,16 @@ while counter == 0:
     except:
         print('Hey Bro, wtf, what has been entered? we need only digits')
 
-
 value_input_first_type = 'float' if '.' in value_input_first else 'int'
 value_input_second_type = 'float' if '.' in value_input_second else 'int'
 
 values.append(value_input_first)
 values.append(value_input_second)
-values.sort()
+values.sort()       #  sort for comparison
 
-comparison = '<' if values[0] < values[1] else '='
+comparison = '<' if values[0] < values[1] else '='      # use it in answer for comparison between values
 
-counter = 0
+counter = 0     #  refresh our iteration counter
 while counter == 0:
     to_do = input('finally, what whe need to do with them: ')
     if to_do == '+':
