@@ -29,10 +29,8 @@ value_input_second_type = 'float' if '.' in value_input_second else 'int'
 values.append(value_input_first)
 values.append(value_input_second)
 values.sort()
-if values[0] < values[1]:
-    comparison = '<'
-else:
-    comparison = '='
+
+comparison = '<' if values[0] < values[1] else '='
 
 counter = 0
 while counter == 0:
