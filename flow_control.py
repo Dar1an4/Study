@@ -5,7 +5,7 @@ print(f'Hello, dear {name}\n'
       f" Let's try to show you Pythoculator \n"
       f' You just need enter any Value one by one below, and finally, '
       f' what whe need to do ? ("+","-","/","*", "n ** n1")')
-values = []         #  use in later, put here aur values for sorting for comparison
+values = []         #  use it later, put here our values for sorting for comparison
 counter = 0
 while counter == 0:
     value_input_first = input('Enter first value: ')
