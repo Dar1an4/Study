@@ -41,7 +41,7 @@ while counter == 0:
                 f'Type of your answer is {type(result)} \n'
                 f'And {values[0]} {comparison} {values[1]} \n'
                 f'Type of your first value is {value_input_first_type}, and type of second is {value_input_second_type}\n'
-                f'the order of answer is {len(str(result))-1}')      #How many orders does the operand have? (скільки порядків)
+                f'the order of answer is {len(str(int(result)))-1}')      #How many orders does the operand have? (скільки порядків)
           counter += 1
     elif to_do == '-':
           result = value_first - value_second
@@ -50,7 +50,7 @@ while counter == 0:
                 f'Type of your answer is {type(result)} \n'
                 f'And {values[0]} {comparison} {values[1]} \n'
                 f'Type of your first value is {value_input_first_type}, and type of second is {value_input_second_type}\n'
-                f'the order of answer is {len(str(result))-1}')      #How many orders does the operand have? (скільки порядків)
+                f'the order of answer is {len(str(int(result)))-1}')      #How many orders does the operand have? (скільки порядків)
           counter += 1
     elif to_do == '/':
           result = value_first / value_second
@@ -59,7 +59,7 @@ while counter == 0:
                 f'Type of your answer is {type(result)} \n'
                 f'And {values[0]} {comparison} {values[1]} \n'
                 f'Type of your first value is {value_input_first_type}, and type of second is {value_input_second_type}\n'
-                f'the order of answer is {len(str(result))-1}')      #How many orders does the operand have? (скільки порядків)
+                f'the order of answer is {len(str(int(result)))-1}')      #How many orders does the operand have? (скільки порядків)
           counter += 1
     elif to_do == '*':
           result = value_first * value_second
@@ -68,7 +68,7 @@ while counter == 0:
                 f'Type of your answer is {type(result)} \n'
                 f'And {values[0]} {comparison} {values[1]} \n'
                 f'Type of your first value is {value_input_first_type}, and type of second is {value_input_second_type}\n'
-                f'the order of answer is {len(str(result))-1}')      #How many orders does the operand have? (скільки порядків)
+                f'the order of answer is {len(str(int(result)))-1}')      #How many orders does the operand have? (скільки порядків)
           counter += 1
     elif to_do == '**':
           result = value_first ** value_second
@@ -77,7 +77,7 @@ while counter == 0:
                 f'Type of your answer is {type(result)} \n'
                 f'And {values[0]} {comparison} {values[1]} \n'
                 f'Type of your first value is {value_input_first_type}, and type of second is {value_input_second_type}\n'
-                f'the order of answer is {len(str(result))-1}')      #How many orders does the operand have? (скільки порядків)
+                f'the order of answer is {len(str(int(result)))-1}')      #How many orders does the operand have? (скільки порядків)
           counter += 1
     else:
         print(f'{name}, bro, wtf again? We already had a deal! you need use only +, -, /, *, ** "\n'
