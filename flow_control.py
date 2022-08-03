@@ -23,10 +23,6 @@ while 1:
     except:
         print('Hey Bro, wtf, what has been entered? we need only digits')
 
-
-# value_input_first_type = 'float' if '.' in value_input_first else 'int'
-# value_input_second_type = 'float' if '.' in value_input_second else 'int'
-
 values = [value_input_first, value_input_second]
 values.sort()       #  sort for comparison
                                                                     # use it in answer for comparison between values
