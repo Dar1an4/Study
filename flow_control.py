@@ -28,9 +28,9 @@ value_input_second_type = 'float' if '.' in value_input_second else 'int'
 values.append(value_input_first)
 values.append(value_input_second)
 values.sort()       #  sort for comparison
-
-comparison = '<' if values[0] < values[1] else '='      # use it in answer for comparison between values
-
+                                                                    # use it in answer for comparison between values
+comparison = '<' if float(values[0]) < float(values[1]) else '='    # use float because if type is different - comparison will be
+                                                                    # incorrect, when values ==
 counter = 0     #  refresh our iteration counter
 while counter == 0:
     to_do = input('finally, what whe need to do with them: ')
