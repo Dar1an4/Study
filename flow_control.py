@@ -1,9 +1,9 @@
-# name = input('Enter your name, please: ')
-# name = name.title().strip()
-# print(f'Hello, dear {name}\n'
-#       f" Let's try to show you Pythoculator \n"
-#       f' You just need enter any Value one by one below, and finally, '
-#       f' what whe need to do ? ("+","-","/","*", "n ** n1")')
+name = input('Enter your name, please: ')
+name = name.title().strip()
+print(f'Hello, dear {name}\n'
+      f" Let's try to show you Pythoculator \n"
+      f' You just need enter any Value one by one below, and finally, '
+      f' what whe need to do ? ("+","-","/","*", "n ** n1")')
 
 while 1:
     value_input_first = input('Enter first value: ')
