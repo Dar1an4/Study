@@ -10,12 +10,8 @@ while 1:
     value_input_second = input('Enter second value: ')
     try:
         value_first = float(value_input_first) if '.' in value_input_first else int(value_input_first)
-        if '.' in value_input_second:
-            value_second = float(value_input_second)
-            break
-        else:
-            value_second = int(value_input_second)
-            break
+        value_second = float(value_input_second) if '.' in value_input_second else int(value_input_second)
+        break
     except:
         print('Hey Bro, wtf, what has been entered? we need only digits')
 
