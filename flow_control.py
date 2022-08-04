@@ -28,21 +28,21 @@ while 1:
     try:
         to_do = input('finally, what whe need to do with them: ')
         if to_do == '+':
-              result = value_first + value_second
-              break
+            result = value_first + value_second
+            break
         elif to_do == '-':
-              result = value_first - value_second
-              break
+            result = value_first - value_second
+            break
         elif to_do == '/':
-              result = value_first / value_second
-              result = int(result) if value_first % value_second == 0 else float(result)
-              break
+            result = value_first / value_second
+            result = int(result) if value_first % value_second == 0 else float(result)
+            break
         elif to_do == '*':
-              result = value_first * value_second
-              break
+            result = value_first * value_second
+            break
         elif to_do == '**':
-              result = value_first ** value_second
-              break
+            result = value_first ** value_second
+            break
         else:
             print(f'{name}, bro, wtf again? We already had a deal! you need use only +, -, /, *, ** "\n'
                   f'Dont forget! your values is {value_first} and {value_second}!\n'
