@@ -1,6 +1,5 @@
 name = input('Enter your name, please: ')
-name = name.title()
-name = name.strip()
+name = name.title().strip()
 print(f'Hello, dear {name}\n'
       f" Let's try to show you Pythoculator \n"
       f' You just need enter any Value one by one below, and finally, '
@@ -10,10 +9,7 @@ while 1:
     value_input_first = input('Enter first value: ')
     value_input_second = input('Enter second value: ')
     try:
-        if '.' in value_input_first:
-            value_first = float(value_input_first)
-        else:
-            value_first = int(value_input_first)
+        value_first = float(value_input_first) if '.' in value_input_first else int(value_input_first)
         if '.' in value_input_second:
             value_second = float(value_input_second)
             break
