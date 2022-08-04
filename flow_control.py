@@ -1,9 +1,9 @@
-name = input('Enter your name, please: ')
-name = name.title().strip()
-print(f'Hello, dear {name}\n'
-      f" Let's try to show you Pythoculator \n"
-      f' You just need enter any Value one by one below, and finally, '
-      f' what whe need to do ? ("+","-","/","*", "n ** n1")')
+# name = input('Enter your name, please: ')
+# name = name.title().strip()
+# print(f'Hello, dear {name}\n'
+#       f" Let's try to show you Pythoculator \n"
+#       f' You just need enter any Value one by one below, and finally, '
+#       f' what whe need to do ? ("+","-","/","*", "n ** n1")')
 
 while 1:
     value_input_first = input('Enter first value: ')
@@ -35,7 +35,7 @@ while 1:
               break
         elif to_do == '/':
               result = value_first / value_second
-              result = float(result) if '.' in value_input_first or '.' in value_input_second else int(result)
+              result = int(result) if value_first % value_second == 0 else float(result)
               break
         elif to_do == '*':
               result = value_first * value_second
