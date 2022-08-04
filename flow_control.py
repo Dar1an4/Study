@@ -55,6 +55,6 @@ print(f'\n \nand the answer is..... : {result} (how unexpected) \n'
       f'Type of your answer is {type(result)} \n'
       f'And {values[0]} {comparison} {values[1]} \n'
       f'Type of your entered first value is {type(value_first)}, and type of second is {type(value_second)}\n'
-      f'the order of answer is {len(str(int(result))) - 1}')  # How many orders does the operand have? (скільки порядків)
+      f'the order of answer is {len(str(int(result))) - 1}')  # How many orders does the operand have?(скільки порядків)
 
 print(f'\n\n Thx for using that! waiting for you again!')
