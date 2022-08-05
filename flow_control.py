@@ -1,10 +1,14 @@
 name = input('Enter your name, please: ')
 name = name.title().strip()
-print(f'Hello, dear {name}\n'
+print(f' Hello, dear {name}\n'
       f" Let's try to show you Pythoculator \n"
-      f' You just need enter any Value one by one below, and finally, '
-      f' what whe need to do ? ("+","-","/","*", "n ** n1")')
+      f' You just need enter any Value one by one below, and finally, \n'
+      f' what whe need to do ? ("+","-","/","*", "n ** n1")\n'
+      f' and if you want to exit - just input "exit" instead any value or operation')
+counter = 0
 while 1:
+    if counter > 0:
+        print("Let's go again. Just input some values and what we need to do: \n")
     while 1:
         value_input_first = input('Enter first value: ')
         if value_input_first.title().strip() == 'Exit':
@@ -22,13 +26,14 @@ while 1:
             print('Hey Bro, wtf, what has been entered? we need only digits')
 
     try:
-        values = [value_input_first, value_input_second]
-        values.sort()       #  sort for comparison
-        comparison = '<' if float(values[0]) < float(values[1]) else '='
+        values = [value_input_first, value_input_second]                  #
+        values.sort()                                                     #  sort for comparison
+        comparison = '<' if float(values[0]) < float(values[1]) else '='  #
     except:
         break
 
     to_dos = ['+', '-', '/', '*', '**']
+
     while 1:
         try:
             to_do = input('finally, what whe need to do with them: ')
@@ -64,6 +69,7 @@ while 1:
               f'And {values[0]} {comparison} {values[1]} \n'
               f'Type of your entered first value is {type(value_first)}, and type of second is {type(value_second)}\n'
               f'the order of answer is {len(str(int(result))) - 1} \n')  # How many orders does the operand have?(скільки порядків)
+        counter += 1
     except:
         print('Ok, if u decide it.... So, by, see you later!')
         break
