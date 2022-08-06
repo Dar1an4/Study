@@ -15,7 +15,7 @@ while counter == 0:
               f' You just need enter any what you want \n'
               f' im not kidding. Just punch the keyboard by your head\n')
     else:
-        print("\n\nOkey, Let's do it again. Just hit the keyboard by your head! ")
+        print("\n\nOkay, Let's do it again. Just hit the keyboard by your head! ")
 
     value_input = input("Let's do it! : ")
 
@@ -58,8 +58,8 @@ while counter == 0:
         print(f' There are {len(vowels_ru_input)} RU vowels and {len(vowels_en_input)} EN vowels')
         if len(vowels_ru_input) > 0:
             print(f" Input RU vowels is '{''.join(vowels_ru_input) }' \n"
-                  f" There are {len(set(vowels_ru_uniq))}  unique RU voweles")
+                  f" There are {len(set(vowels_ru_uniq))}  unique RU vowels")
         if len(vowels_en_input) > 0:
             print(f" Input EN vowels is '{''.join(vowels_en_input) }' \n"
-                  f" There are {len(set(vowels_en_uniq))}  unique EN voweles")
+                  f" There are {len(set(vowels_en_uniq))}  unique EN vowels")
         text_counter += 1
