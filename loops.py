@@ -28,9 +28,11 @@ while counter == 0:
 
     vowels_en_counter = 0
     vowels_en_input = []
+    vowels_en_uniq = []
 
     vowels_ru_counter = 0
     vowels_ru_input = []
+    vowels_ru_uniq = []
 
     for i in range(len(value_input)):
         if value_input[i] == " ":
@@ -40,11 +42,13 @@ while counter == 0:
         if value_input[i].upper() in vowels_ru:
             vowels_ru_counter += 1
             vowels_ru_input.append(value_input[i])
+            vowels_ru_uniq.append(value_input[i].upper())
         if value_input[i].upper() in vowels_en:
             vowels_en_counter += 1
             vowels_en_input.append(value_input[i])
-        i -= 1
-        if (value_input[i-1] + value_input[i] +value_input[i+1]).isdigit():
+            vowels_en_uniq.append(value_input[i].upper())
+        i -= 1  #  fix problem with out of len
+        if (value_input[i-1] + value_input[i] + value_input[i+1]).isdigit():
             print("something wrong. "
                   "Maybe you input three digits one by one?")
             counter += 1
@@ -52,13 +56,15 @@ while counter == 0:
 
     if counter == 0:
         print(f' Your input Value is {value_input}. \n(nice punch, LOL)\n'
-              f' if we up register, it will looks like: \n {value_input.upper()} \n'
+              f' if we make up register, it will looks like: \n {value_input.upper()} \n'
               f' there are {space_counter} spaces on your text ')
         if space_counter > 0:
-            print(f' indexes of spaces in your string - {space_indexes}')
+            print(f" indexes of spaces in your string - {space_indexes}")
         print(f' There are {vowels_ru_counter} RU vowels and {vowels_en_counter} EN vowels' )
         if vowels_ru_counter > 0:
-            print(f' Input RU vowels is {vowels_ru_input}')
+            print(f" Input RU vowels is '{''.join(vowels_ru_input) }' \n"
+                  f" There are {len(set(vowels_ru_uniq))}  unique RU voweles")
         if vowels_en_counter > 0:
-            print(f' Input EN vowels is {vowels_en_input}')
+            print(f" Input EN vowels is '{''.join(vowels_en_input) }' \n"
+                  f" There are {len(set(vowels_en_uniq))}  unique EN voweles")
         text_counter += 1
