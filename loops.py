@@ -15,7 +15,7 @@ while counter == 0:
               f' You just need enter any what you want \n'
               f' im not kidding. Just punch the keyboard by your head\n')
     else:
-        print("\n\nOkey, Let's do it again. Just hit the keyboard by yoar head! ")
+        print("\n\nOkey, Let's do it again. Just hit the keyboard by your head! ")
 
     value_input = input("Let's do it! : ")
 
@@ -37,7 +37,7 @@ while counter == 0:
     for i in range(len(value_input)):
         if value_input[i] == " ":
             space_counter += 1
-            space_indexes.append(i)
+            space_indexes.append(str(i))
 
         if value_input[i].upper() in vowels_ru:
             vowels_ru_counter += 1
@@ -59,7 +59,7 @@ while counter == 0:
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
               f' there are {space_counter} spaces on your text ')
         if space_counter > 0:
-            print(f" indexes of spaces in your string - {space_indexes}")
+            print(f" indexes of spaces in your string - {', '.join(space_indexes)}")
         print(f' There are {vowels_ru_counter} RU vowels and {vowels_en_counter} EN vowels' )
         if vowels_ru_counter > 0:
             print(f" Input RU vowels is '{''.join(vowels_ru_input) }' \n"
