@@ -36,7 +36,7 @@ while counter == 0:
             value_second = float(value_input_second) if '.' in value_input_second else int(value_input_second)
             break
         except ValueError:
-          print('Hey Bro, wtf, what has been entered? we need only digits')
+            print('Hey Bro, wtf, what has been entered? we need only digits')
 
     while counter == 0:
         try:
@@ -60,6 +60,7 @@ while counter == 0:
             elif to_do not in to_dos:
                 if to_do.title().strip() == 'Exit':
                     counter += 1
+                    print('Ok, if u decide it.... So, by, see you later!')
                     break
                 else:
                     print(f'{name}, bro, wtf again? We already had a deal! you need use only {to_dos}\n'
@@ -77,6 +78,4 @@ while counter == 0:
               f' Type of your entered first value is {type(value_first)}, and type of second is {type(value_second)}\n'
               f' the order of answer is {len(str(int(result))) - 1} \n')  # How many orders does the operand have?(скільки порядків)
         text_counter += 1
-    else:
-        print('Ok, if u decide it.... So, by, see you later!')
-        break
+
