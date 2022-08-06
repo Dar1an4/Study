@@ -26,11 +26,9 @@ while counter == 0:
     space_counter = 0
     space_indexes = []
 
-    vowels_en_counter = 0
     vowels_en_input = []
     vowels_en_uniq = []
 
-    vowels_ru_counter = 0
     vowels_ru_input = []
     vowels_ru_uniq = []
 
@@ -40,11 +38,9 @@ while counter == 0:
             space_indexes.append(str(i))
 
         if value_input[i].upper() in vowels_ru:
-            vowels_ru_counter += 1
             vowels_ru_input.append(value_input[i])
             vowels_ru_uniq.append(value_input[i].upper())
         if value_input[i].upper() in vowels_en:
-            vowels_en_counter += 1
             vowels_en_input.append(value_input[i])
             vowels_en_uniq.append(value_input[i].upper())
 
@@ -61,11 +57,11 @@ while counter == 0:
               f' there are {space_counter} spaces on your text ')
         if space_counter > 0:
             print(f" indexes of spaces in your string - {', '.join(space_indexes)}")
-        print(f' There are {vowels_ru_counter} RU vowels and {vowels_en_counter} EN vowels' )
-        if vowels_ru_counter > 0:
+        print(f' There are {len(vowels_ru_input)} RU vowels and {len(vowels_en_input)} EN vowels' )
+        if len(vowels_ru_input) > 0:
             print(f" Input RU vowels is '{''.join(vowels_ru_input) }' \n"
                   f" There are {len(set(vowels_ru_uniq))}  unique RU voweles")
-        if vowels_en_counter > 0:
+        if len(vowels_en_input) > 0:
             print(f" Input EN vowels is '{''.join(vowels_en_input) }' \n"
                   f" There are {len(set(vowels_en_uniq))}  unique EN voweles")
         text_counter += 1
