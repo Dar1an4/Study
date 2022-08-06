@@ -23,7 +23,6 @@ while counter == 0:
         print('Ok, see u later')
         break
 
-    space_counter = 0
     space_indexes = []
 
     vowels_en_input = []  # for saving original input register
@@ -34,7 +33,6 @@ while counter == 0:
 
     for i in range(len(value_input)):
         if value_input[i] == " ":
-            space_counter += 1
             space_indexes.append(str(i))
 
         if value_input[i].upper() in vowels_ru:
@@ -54,8 +52,8 @@ while counter == 0:
     if counter == 0:
         print(f' Your input Value is "{value_input}". \n(nice punch, LOL)\n'
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
-              f' there are {space_counter} spaces on your text ')
-        if space_counter > 0:
+              f' there are {len(space_indexes)} spaces on your text ')
+        if len(space_indexes) > 0:
             print(f" indexes of spaces in your string - {', '.join(space_indexes)}")
         print(f' There are {len(vowels_ru_input)} RU vowels and {len(vowels_en_input)} EN vowels')
         if len(vowels_ru_input) > 0:
