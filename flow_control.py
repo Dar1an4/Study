@@ -1,4 +1,4 @@
-name = input('Enter your name, please \n'
+name = input('Enter your name, please \n '
              'or if u wanna stop this - input "Exit" : ')
 name = name.title().strip()
 to_dos = ['+', '-', '/', '*', '**']
