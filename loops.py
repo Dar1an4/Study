@@ -26,8 +26,8 @@ while counter == 0:
     space_counter = 0
     space_indexes = []
 
-    vowels_en_input = []
-    vowels_en_uniq = []
+    vowels_en_input = []  # for saving original input register
+    vowels_en_uniq = []  # for counting and listing unique vowels
 
     vowels_ru_input = []
     vowels_ru_uniq = []
