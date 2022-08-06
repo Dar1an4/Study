@@ -55,7 +55,7 @@ while counter == 0:
             break
 
     if counter == 0:
-        print(f' Your input Value is {value_input}. \n(nice punch, LOL)\n'
+        print(f' Your input Value is "{value_input}". \n(nice punch, LOL)\n'
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
               f' there are {space_counter} spaces on your text ')
         if space_counter > 0:
