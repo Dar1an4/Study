@@ -47,6 +47,7 @@ while counter == 0:
             vowels_en_counter += 1
             vowels_en_input.append(value_input[i])
             vowels_en_uniq.append(value_input[i].upper())
+
         i -= 1  #  fix problem with out of len
         if (value_input[i-1] + value_input[i] + value_input[i+1]).isdigit():
             print("something wrong. "
