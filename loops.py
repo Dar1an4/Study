@@ -62,4 +62,3 @@ while counter == 0:
         if vowels_en_counter > 0:
             print(f' Input EN vowels is {vowels_en_input}')
         text_counter += 1
-

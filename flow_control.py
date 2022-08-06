@@ -17,6 +17,7 @@ while counter == 0:
         print(" Let's go again.\n"
               ' if you want to exit - just input "Exit".\n'
               f' For continue, just input any two values and what we need to do {to_dos}: \n')
+
     while counter == 0:
         value_input_first = input('Enter first value: ')
         if value_input_first.title().strip() == 'Exit':
@@ -26,6 +27,7 @@ while counter == 0:
         if value_input_second.title().strip() == 'Exit':
             counter += 1
             break
+
         try:
             values = [value_input_first, value_input_second]
             values.sort()  # sort for comparison
@@ -65,6 +67,7 @@ while counter == 0:
                           f'Just put between them something what we talking about!')
         except Exception as error:
             print(f"You make dirty... :{ error }")
+
     if counter == 0:
         print(f'\n Your an arithmetical example is {value_first} {to_do} {value_second}\n'
               f' and the answer is..... : {result} (how unexpected) \n'
