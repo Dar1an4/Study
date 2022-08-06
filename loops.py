@@ -44,7 +44,7 @@ while counter == 0:
             vowels_en_input.append(value_input[i])
             vowels_en_uniq.append(value_input[i].upper())
 
-        i -= 1  #  fix problem with out of len
+        i -= 1  # fix problem without of len
         if (value_input[i-1] + value_input[i] + value_input[i+1]).isdigit():
             print("something wrong. "
                   "Maybe you input three digits one by one?")
@@ -57,7 +57,7 @@ while counter == 0:
               f' there are {space_counter} spaces on your text ')
         if space_counter > 0:
             print(f" indexes of spaces in your string - {', '.join(space_indexes)}")
-        print(f' There are {len(vowels_ru_input)} RU vowels and {len(vowels_en_input)} EN vowels' )
+        print(f' There are {len(vowels_ru_input)} RU vowels and {len(vowels_en_input)} EN vowels')
         if len(vowels_ru_input) > 0:
             print(f" Input RU vowels is '{''.join(vowels_ru_input) }' \n"
                   f" There are {len(set(vowels_ru_uniq))}  unique RU voweles")
