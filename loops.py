@@ -23,7 +23,7 @@ while counter == 0:
         print('Ok, see u later')
         break
 
-    space_indexes = []
+    space_indexes = []  # put here spaces indexes for their counting and output
 
     vowels_en_input = []  # for saving original input register
     vowels_en_uniq = []  # for counting and listing unique vowels
@@ -52,7 +52,7 @@ while counter == 0:
     if counter == 0:
         print(f' Your input Value is "{value_input}". \n(nice punch, LOL)\n'
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
-              f' there are {len(space_indexes)} spaces on your text ')
+              f' there are {len(space_indexes)} spaces in your text ')
         if len(space_indexes) > 0:
             print(f" indexes of spaces in your string - {', '.join(space_indexes)}")
         print(f' There are {len(vowels_ru_input)} RU vowels and {len(vowels_en_input)} EN vowels')
