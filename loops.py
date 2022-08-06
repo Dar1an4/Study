@@ -39,10 +39,10 @@ while counter == 0:
 
         if value_input[i].upper() in vowels_ru:
             vowels_ru_counter += 1
-            vowels_ru_input.append(value_input[i].upper())
+            vowels_ru_input.append(value_input[i])
         if value_input[i].upper() in vowels_en:
             vowels_en_counter += 1
-            vowels_en_input.append(value_input[i].upper())
+            vowels_en_input.append(value_input[i])
         i -= 1
         if (value_input[i-1] + value_input[i] +value_input[i+1]).isdigit():
             print("something wrong. "
