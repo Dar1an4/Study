@@ -22,10 +22,12 @@ while counter == 0:
         value_input_first = input('Enter first value: ')
         if value_input_first.title().strip() == 'Exit':
             counter += 1
+            print(f'Ok, if u decide it.... So, by, see you later! We done {text_counter} iterations')
             break
         value_input_second = input('Enter second value: ')
         if value_input_second.title().strip() == 'Exit':
             counter += 1
+            print(f'Ok, if u decide it.... So, by, see you later! We done {text_counter} iterations')
             break
 
         try:
@@ -60,7 +62,7 @@ while counter == 0:
             elif to_do not in to_dos:
                 if to_do.title().strip() == 'Exit':
                     counter += 1
-                    print('Ok, if u decide it.... So, by, see you later!')
+                    print(f'Ok, if u decide it.... So, by, see you later! We done {text_counter} iterations')
                     break
                 else:
                     print(f'{name}, bro, wtf again? We already had a deal! you need use only {to_dos}\n'
