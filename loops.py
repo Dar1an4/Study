@@ -20,7 +20,7 @@ while counter == 0:
     value_input = input("Let's do it! : ")
 
     if value_input.capitalize().strip() == 'Exit':
-        print('Ok, see u later')
+        print(f'Ok, see u later. We done {text_counter} iterations')
         break
 
     space_indexes = []  # put here spaces indexes for their counting and output
