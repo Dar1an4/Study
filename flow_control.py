@@ -1,7 +1,7 @@
 name = input('Enter your name, please \n '
              'or if u wanna stop this - input "Exit" : ')
 name = name.title().strip()
-to_dos = ['+', '-', '/', '*', '**']
+to_dos = ('+', '-', '/', '*', '**')
 
 text_counter = 0
 counter = 1 if name == 'Exit' else 0
@@ -78,4 +78,3 @@ while counter == 0:
               f' Type of your entered first value is {type(value_first)}, and type of second is {type(value_second)}\n'
               f' the order of answer is {len(str(int(result))) - 1} \n')  # How many orders does the operand have?(скільки порядків)
         text_counter += 1
-
