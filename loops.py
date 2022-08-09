@@ -25,6 +25,8 @@ while counter == 0:
 
     space_indexes = []  # put here spaces indexes for their counting and output
 
+    letters_upreg = []
+
     vowels_en_input = []  # for saving original input register
     vowels_en_uniq = []  # for counting and listing unique vowels
 
@@ -34,6 +36,8 @@ while counter == 0:
     for i in range(len(value_input)):
         if value_input[i] == " ":
             space_indexes.append(str(i))
+        if (value_input[i]).isupper():
+            letters_upreg.append(value_input[i])
 
         if value_input[i].upper() in vowels_ru:
             vowels_ru_input.append(value_input[i])
@@ -52,14 +56,17 @@ while counter == 0:
     if counter == 0:
         print(f' Your input Value is "{value_input}". \n(nice punch, LOL)\n'
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
-              f' there are {len(space_indexes)} spaces in your text ')
+              f' There are {len(letters_upreg)} is upper')
+        if len(letters_upreg) > 0:
+            print(f" Up register letters in your string is: {', '.join(letters_upreg)} ")
+        print(f' there are {len(space_indexes)} spaces in your text ')
         if len(space_indexes) > 0:
-            print(f" indexes of spaces in your string - {', '.join(space_indexes)}")
+            print(f" indexes of spaces in your string: {', '.join(space_indexes)}")
         print(f' There are {len(vowels_ru_input)} RU vowels and {len(vowels_en_input)} EN vowels')
         if len(vowels_ru_input) > 0:
-            print(f" Input RU vowels is '{''.join(vowels_ru_input) }' \n"
+            print(f" Input RU vowels is: '{''.join(vowels_ru_input) }' \n"
                   f" There are {len(set(vowels_ru_uniq))}  unique RU vowels")
         if len(vowels_en_input) > 0:
-            print(f" Input EN vowels is '{''.join(vowels_en_input) }' \n"
+            print(f" Input EN vowels is: {''.join(vowels_en_input) } \n"
                   f" There are {len(set(vowels_en_uniq))}  unique EN vowels")
         text_counter += 1
