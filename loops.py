@@ -25,7 +25,7 @@ while counter == 0:
 
     space_indexes = []  # put here spaces indexes for their counting and output
 
-    letters_upreg = []
+    letters_isup = []
 
     vowels_en_input = []  # for saving original input register
     vowels_en_uniq = []  # for counting and listing unique vowels
@@ -37,7 +37,7 @@ while counter == 0:
         if value_input[i] == " ":
             space_indexes.append(str(i))
         if (value_input[i]).isupper():
-            letters_upreg.append(value_input[i])
+            letters_isup.append(value_input[i])
 
         if value_input[i].upper() in vowels_ru:
             vowels_ru_input.append(value_input[i])
@@ -56,9 +56,9 @@ while counter == 0:
     if counter == 0:
         print(f' Your input Value is "{value_input}". \n(nice punch, LOL)\n'
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
-              f' There are {len(letters_upreg)} is upper')
-        if len(letters_upreg) > 0:
-            print(f" Up register letters in your string is: {', '.join(letters_upreg)} ")
+              f' There are {len(letters_isup)} is upper')
+        if len(letters_isup) > 0:
+            print(f" Up register letters in your string is: {', '.join(letters_isup)} ")
         print(f' there are {len(space_indexes)} spaces in your text ')
         if len(space_indexes) > 0:
             print(f" indexes of spaces in your string: {', '.join(space_indexes)}")
