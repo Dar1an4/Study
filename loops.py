@@ -46,8 +46,7 @@ while counter == 0:
             vowels_en_input.append(value_input[i])
             vowels_en_uniq.append(value_input[i].upper())
         try:
-            if (value_input[i] + value_input[i + 1] + value_input[i + 2]).isdigit() or \
-                    (value_input[i - 1] + value_input[i - 2] + value_input[i - 3]).isdigit():
+            if (value_input[i] + value_input[i + 1] + value_input[i + 2]).isdigit():
                 print("something wrong. "
                       "Maybe you input three digits one by one?")
                 counter += 1
