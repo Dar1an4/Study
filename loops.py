@@ -53,7 +53,7 @@ while counter == 0:
                 break
         except:
             pass
-    if counter == 0:
+    #if counter == 0:
         print(f' Your input Value is "{value_input}". \n(nice punch, LOL)\n'
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
               f' There are {len(letters_isup)} is upper')
