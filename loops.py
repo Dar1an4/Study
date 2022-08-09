@@ -45,14 +45,16 @@ while counter == 0:
         if value_input[i].upper() in vowels_en:
             vowels_en_input.append(value_input[i])
             vowels_en_uniq.append(value_input[i].upper())
-
-        i -= 1  # fix problem with "out of len"
-        if (value_input[i-1] + value_input[i] + value_input[i+1]).isdigit():
-            print("something wrong. "
-                  "Maybe you input three digits one by one?")
-            counter += 1
-            break
-
+        try:
+            if (value_input[i] + value_input[i + 1] + value_input[i + 2]).isdigit() or \
+                    (value_input[i - 1] + value_input[i - 2] + value_input[i - 3]).isdigit():
+                print("something wrong. "
+                      "Maybe you input three digits one by one?")
+                counter += 1
+                break
+        except:
+            pass
+    if counter == 0:
         print(f' Your input Value is "{value_input}". \n(nice punch, LOL)\n'
               f' if we make up register, it will looks like: \n {value_input.upper()} \n'
               f' There are {len(letters_isup)} is upper')
