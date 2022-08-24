@@ -1,6 +1,6 @@
 any_string = input('Enter a string: ')
 some_list = any_string.split(' ')
-print(', '.join(some_list[2::3]))  # printing every third word
+print(',                    '.join(some_list[2::3]))  # printing every third word
 
 input_list = [1, 2.1, "f", "2", 3, "1", 18, "df"]
 output_list = [1, 2.1, -1, '6', 9, '3', 18, -1]
