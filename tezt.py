@@ -27,7 +27,6 @@ values = list(inv_keys_alphabet.values())
 # print(values)
 
 secret_string = []
-keys = []
 
 for keys in string:
     secret_string.append(alphabet2.get(inv_keys_alphabet.get(keys)+password))
