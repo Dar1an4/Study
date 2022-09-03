@@ -16,9 +16,10 @@ print(f'{counter(start, finish) = }')
 
 def time_convert(sec: int) -> str:
     if sec < 86400:
+        days = '00'
         res = time.gmtime(sec)
-        result = str(time.strftime("%H:%M:%S", res))
-        return result
+        result = f'{str(days)}:{str(time.strftime("%H:%M:%S", res))}'
+        return f'days:hours:minutes:seconds {result}'
     else:
         days = sec // 86400
         left_seconds = sec - (days * 86400)
