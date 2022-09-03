@@ -1,9 +1,8 @@
-import datetime
+import time
 
 """FIRST EXERCISE"""
 start = int(input('enter the start of calculation: '))
 finish = int(input('enter the start of calculation: '))
-
 
 def counter(start: int, finish: int) -> int:
     list = [start, finish]
@@ -11,51 +10,58 @@ def counter(start: int, finish: int) -> int:
     result = sum(range(list[0], list[1] + 1))
     return result
 
-
-print(counter(start, finish))
+print(f'{counter(start, finish) = }')
 
 """SECOND EXERCISE"""
 
+def time_convert(sec: int) -> str:
+    res = time.gmtime(sec)
+    result = str(time.strftime("%H:%M:%S", res))
+    if sec < 86400:
+        return result
+    else:
+        days = sec // 86400
+        left_seconds = sec - (days * 86400)
+        res = time.gmtime(left_seconds)
+        result = f'{str(days)}:{str(time.strftime("%H:%M:%S", res))}'
+        return f'days:hours:minutes:seconds {result}'
 
-def time_convert(sec: int):
-    result = datetime.timedelta(seconds=sec)
-    return result
-
-
-print(time_convert(360000))
+print(f'{time_convert(86401) = }')
 
 """THIRD EXERCISE"""
-list = [1, 3, 4, 6, 7, 8, 12, 2]
 
-def for_counter(list: list) -> int or float:
+list_inc = [1, 3, 4, 6, 7, 8, 12, 2]
+
+def for_counter(incoming_list: list) -> int or float:
     sum = 0
-    for i in list:
+    for i in incoming_list:
         sum += i
     return sum
 
-print(for_counter(list))
+print(f'{for_counter(list_inc) = }')
 
-list = [1, 3, 4, 6, 7, 8, 12, 2]
+list_inc = [1, 3, 4, 6, 7, 8, 12, 2]
 
-def while_counter(list: list) -> int or float:
+def while_counter(incoming_list: list) -> int or float:
+    output_list = incoming_list.copy()
     sum = 0
-    while len(list) != 0:
-        sum += list.pop()
+    while len(output_list) != 0:
+        sum += output_list.pop()
     return sum
 
-print(while_counter(list))
+print(f'{while_counter(list_inc) = }')
 
-list = [1, 3, 4, 6, 7, 8, 12, 2]
+list_inc = [1, 3, 4, 6, 7, 8, 12, 2]
 
-def recurs_counter(list: list) -> int or float:
-    if list == []:
+def recurs_counter(incoming_list: list) -> int or float:
+    if incoming_list == []:
         return 0
     else:
-        sum = recurs_counter(list[1:])
-        sum = sum + list[0]
+        sum = recurs_counter(incoming_list[1:])
+        sum = sum + incoming_list[0]
         return sum
 
-print(recurs_counter(list))
+print(f'{recurs_counter(list_inc) = }')
 
 
 """FOURTH EXERCISE"""
