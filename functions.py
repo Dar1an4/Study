@@ -15,9 +15,9 @@ print(f'{counter(start, finish) = }')
 """SECOND EXERCISE"""
 
 def time_convert(sec: int) -> str:
-    res = time.gmtime(sec)
-    result = str(time.strftime("%H:%M:%S", res))
     if sec < 86400:
+        res = time.gmtime(sec)
+        result = str(time.strftime("%H:%M:%S", res))
         return result
     else:
         days = sec // 86400
@@ -65,3 +65,4 @@ print(f'{recurs_counter(list_inc) = }')
 
 
 """FOURTH EXERCISE"""
+
