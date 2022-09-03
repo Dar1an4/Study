@@ -1,37 +1,36 @@
+import string
+
+
 ascii = {key: chr(key) for key in range(0, 128)}
 print(ascii)
-
-string = input('Enter your string for coding: ')
-password = int(input('Enter your code: '))
-alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+################################################################
 
 alphabet_key = {
-    key: alphabet[key] for key in range(26)
-}
+    letter: index
+    for index, letter in enumerate(string.ascii_lowercase)}
+print(alphabet_key)
 
-inv_keys_alphabet = {}
-for key, value in alphabet_key.items():
-    inv_keys_alphabet[value] = key
+user_str = input('Enter your string for coding: ')
+password = int(input("Type positive integer value for password: ")) % len(alphabet_key)
 
-secret_string = []
-keys = []
+alphabet_secure = {
+    # ternary operator for make loop inside the alphabet
+    index - password + (len(alphabet_key) if password > index else 0): letter
+    for letter, index in alphabet_key.items()
+    }
+print(alphabet_secure)
 
-for key in string:
-    keys.append(inv_keys_alphabet.get(key.upper()))
-for key in keys:
-    secret_string.append(alphabet_key.get(key+password))
+secret_string = "".join([alphabet_secure[alphabet_key[letter]] for letter in user_str])
 
-print(''.join(secret_string))
+print(secret_string)
 
-string = input('Enter your string for decoding: ')
-password = int(input('Enter your code: '))
+user_str = input('Enter your string for decoding: ')
+password = int(input("Type positive integer value for password decoding: ")) % len(alphabet_key)
 
-secret_string2 = []
-keys2 = []
+alphabet_secure = {
+    index + password - (len(alphabet_key) if password > index else 0): letter
+    for letter, index in alphabet_key.items()
+    }
 
-for key in string:
-    keys2.append(inv_keys_alphabet.get(key.upper()))
-for values in keys2:
-    secret_string2.append(alphabet_key.get(values-password))
-
-print(''.join(secret_string2).capitalize())
+decoding_string = "".join([alphabet_secure[alphabet_key[letter]] for letter in user_str])
+print(decoding_string)
