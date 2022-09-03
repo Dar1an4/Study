@@ -27,6 +27,7 @@ test_tuple1 = {2, 15, 'al', 32, 5, 3, 2, 1, 0, 'ass', 'arr', 145}
 test_tuple2 = {'ass', 15, 1231, 'asaa', 432, 0, 223, 123, 432, 24}
 test_tuple3 = {0, 'ass', 2, 4, 'sym', 11, 12, 15, 113, 5, 0, 43}
 
+
 print(test_tuple1 ^ test_tuple2 ^ test_tuple3)
 print(test_tuple1 & test_tuple2 & test_tuple3)
 print(test_tuple1 | test_tuple2 | test_tuple3)
