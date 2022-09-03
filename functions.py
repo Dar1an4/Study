@@ -12,6 +12,7 @@ def counter(start: int, finish: int) -> int:
 
 print(f'{counter(start, finish) = }')
 
+
 """SECOND EXERCISE"""
 
 def time_convert(sec: int) -> str:
@@ -28,6 +29,7 @@ def time_convert(sec: int) -> str:
         return f'days:hours:minutes:seconds {result}'
 
 print(f'{time_convert(86401) = }')
+
 
 """THIRD EXERCISE"""
 
@@ -66,4 +68,30 @@ print(f'{recurs_counter(list_inc) = }')
 
 
 """FOURTH EXERCISE"""
+
+def recurs_fibo(n: int) -> int:
+    if n in (1, 2):
+        return 1
+    return recurs_fibo(n - 1) + recurs_fibo(n - 2)
+
+print(recurs_fibo(10))
+
+
+"""FIFTH EXERCISE"""
+
+def ingr_burger(decor_this) -> any:
+    def ingr_tomato():
+        print('tomato')
+    def ingr_meat():
+        print('meat')
+    def ingr_chees():
+        print('chees')
+    def ingr_bread():
+        print('bread')
+    return ingr_tomato(), ingr_meat(), ingr_chees(), ingr_bread()
+
+@ingr_burger
+def burger() -> None:
+    return None
+
 
