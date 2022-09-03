@@ -20,6 +20,9 @@ for value in second_tuple:
 print(f'{letters_from_both_sets = } ')
 print(f'{digits_set1.symmetric_difference(digits_set2) = }')
 
+first_tuple.update(second_tuple)
+print(f' first tuple updated by second tuple{first_tuple}')
+
 test_tuple1 = {2, 15, 'al', 32, 5, 3, 2, 1, 0, 'ass', 'arr', 145}
 test_tuple2 = {'ass', 15, 1231, 'asaa', 432, 0, 223, 123, 432, 24}
 test_tuple3 = {0, 'ass', 2, 4, 'sym', 11, 12, 15, 113, 5, 0, 43}
