@@ -18,7 +18,7 @@ obj_for_dump = {
                 'os_env': list(os_env),
                 'os_getlogin': os_getlogin,
                 'os_getppid': os_getppid,
-    }
+                }
 print(obj_for_dump)
 
 with open("os_report.json", "w") as fh:
