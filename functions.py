@@ -107,6 +107,12 @@ print(f'{recurs_fibo(10) = }')
 
 """FIFTH EXERCISE"""
 
+"""
+first decor
+"""
+
+print('first decor:')
+
 
 def ingr_burger(decor_this) -> any:
     def ingr_tomato():
@@ -125,6 +131,35 @@ def ingr_burger(decor_this) -> any:
 
 @ingr_burger
 def burger() -> None:
-    return None
+    return
 
 
+"""
+second decor
+"""
+
+print('second decor:')
+
+
+def ingr_tomato(decor_this):
+    print('tomato')
+
+
+def ingr_meat(decor_this):
+    print('meat')
+
+
+def ingr_chees(decor_this):
+    print('chees')
+
+
+def ingr_bread(decor_this):
+    print('bread')
+
+
+@ingr_bread
+@ingr_chees
+@ingr_meat
+@ingr_tomato
+def burger() -> None:
+    return
