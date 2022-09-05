@@ -1,6 +1,9 @@
 first_tuple = set(input("Enter values: "))
 second_tuple = set(input("Enter values again: "))
 
+elements_both_sets = first_tuple & second_tuple
+unique_elements = first_tuple ^ second_tuple
+
 letters_from_both_sets = set()
 digits_set1 = set()
 digits_set2 = set()
@@ -19,8 +22,12 @@ for value in second_tuple:
 
 print(f'{letters_from_both_sets = } ')
 print(f'{digits_set1.symmetric_difference(digits_set2) = }')
+print(f'{elements_both_sets = }')
+print(f'{unique_elements = }')
+
 
 first_tuple.update(second_tuple)
+
 print(f' first tuple updated by second tuple{first_tuple}')
 
 test_tuple1 = {2, 15, 'al', 32, 5, 3, 2, 1, 0, 'ass', 'arr', 145}
