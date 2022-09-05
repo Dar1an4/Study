@@ -120,7 +120,7 @@ def ingr_burger(decor_this) -> any:
 
     def ingr_bread():
         print('bread')
-    return ingr_tomato(), ingr_meat(), ingr_chees(), ingr_bread(), decor_this
+    return ingr_tomato(), ingr_meat(), ingr_chees(), ingr_bread()
 
 
 @ingr_burger
