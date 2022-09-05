@@ -66,6 +66,21 @@ print(f'{while_counter(list_inc) = }')
 list_inc = [1, 3, 4, 6, 7, 8, 12, 2]
 
 
+def while_counter2(incoming_list: list) -> int or float:
+    len_counter = 0
+    sum = 0
+    while len_counter != len(incoming_list):
+        sum += incoming_list[len_counter]
+        len_counter += 1
+    return sum
+
+
+print(f'{while_counter2(list_inc) = }')
+
+
+list_inc = [1, 3, 4, 6, 7, 8, 12, 2]
+
+
 def recurs_counter(incoming_list: list) -> int or float:
     if incoming_list == []:
         return 0
@@ -87,7 +102,7 @@ def recurs_fibo(n: int) -> int:
     return recurs_fibo(n - 1) + recurs_fibo(n - 2)
 
 
-print(recurs_fibo(10))
+print(f'{recurs_fibo(10) = }')
 
 
 """FIFTH EXERCISE"""
