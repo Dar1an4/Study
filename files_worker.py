@@ -5,8 +5,13 @@ from mimesis import Address, Generic, Finance, Person
 from transliterate import translit
 
 
+try:
+    os.mkdir("pars")
+except FileExistsError:
+    print('Already have the directory, Working...')
+
+
 file_path = "schedules/schedule.csv"
-#os.mkdir("schedules")
 fieldnames = ['Nomber', 'Working Company', 'Passanger Name', 'departure point', 'departure time', 'destination point',
               'arrival time', 'cost ticket']
 
