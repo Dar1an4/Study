@@ -6,7 +6,7 @@ from transliterate import translit
 
 
 try:
-    os.mkdir("pars")
+    os.mkdir("schedules")
 except FileExistsError:
     print('Already have the directory, Working...')
 

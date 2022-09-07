@@ -36,7 +36,7 @@ with open("pars/hillil.png", "wb") as file:
 
 
 """
-Second part of exercise "Вигадай ще кілька задач, попрактикуйся з модулем"
+Second part of exercise "Вигадай ще кілька задач собі сам, попрактикуйся з модулем"
 """
 
 
