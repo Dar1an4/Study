@@ -47,7 +47,6 @@ def reader_csvdb() -> dict:
         print(f'Something WRONG! {error}')
 
 
-
 flew_db = reader_csvdb()
 print(flew_db)
 
@@ -59,7 +58,6 @@ def json_writer(flew_db: dict, directory: str) -> None:
         print('succes dumped!')
     except Exception as error:
         print(f'Something WRONG! {error}')
-
 
 
 json_writer(flew_db, "schedules/schedule.json")
