@@ -1,201 +1,301 @@
 Nomber,Working Company,Passanger Name,departure point,departure time,destination point,arrival time,cost ticket
-1,Ideal Garden Management,Tolyhniva Benjuk,Monastyryshche,01:26,Pleasant Prairie,23:40,6652.78
-2,Aon Corporation,Hordyslav Bakumenko,Kam'janka,10:39,Selma,23:05,3295.46
-3,Multi-Systems Merchant Services,Jasen Basanets',Baryshivka,10:47,Chanhassen,04:40,8005.53
-4,Benchmark Electronics,Ljutobor Andrushkiv,Perejaslav-Khmel'nyts'kyj,04:18,Apex,00:31,936.53
-5,Alliant Techsystems,Rostychar Banakh,Mykhajlivka,00:04,Millville,15:09,5104.71
-6,First Rate Choice,Berehynja Andruntsiv,Kozelets',22:01,Buffalo Grove,15:01,3209.9
-7,Advanced Micro Devices,Porfyr Bandurko,Vinnytsja,06:14,Spring Hill,19:11,8610.38
-8,Network Air,Sobislav Andolenko,Prymors'k,05:51,El Reno,19:16,7779.42
-9,EMC Corporation,Ljudyslav Bandurka,Kozelets',13:57,Attleboro,20:43,1687.18
-10,Dollar Tree,Artem Benjuk,Sambir,21:49,Bellingham,05:10,635.6
-11,Watco Companies,Hordomysl Andrushchenko,Dykan'ka,18:17,Round Lake Beach,06:37,5970.48
-12,Kroger,Jaromysl Antypenko,Yemil'chyne,00:40,Covina,05:31,6813.98
-13,Total Sources,Svjatovyd Bakalo,Brody,22:12,Eagle Mountain,05:50,4784.3
-14,National Railway Equipment Company,Batko Afendyk,Kozel'shchyna,18:10,Burleson,17:35,6266.05
-15,Ocean Spray,Ljubomysl Bazavluchenko,Starokostjantyniv,19:01,North Augusta,15:52,2005.58
-16,Russell Stovers,Artemija Andrushkiv,Perechyn,10:23,North Little Rock,10:58,1029.44
-17,Express Merchant Service,Sudymyr Barilko,Kharkiv,00:06,Greer,21:43,6838.74
-18,Konsili,Viryneja Andrejchenko,Ichnja,00:44,Inkster,02:44,1865.95
-19,Titania,Artemizija Bal',Seredyna-Buda,19:01,Birmingham,09:31,7786.92
-20,DiC Entertainment,V'jacheslava Andrukhiv,Pryazovs'ke,00:46,Springdale,07:24,8587.33
-21,Boise Cascade,Zakharij Baljuk,Zhytomyr,12:27,Lathrop,13:35,8552.76
-22,Pluto Marine,Bronislava Balyka,Borodjanka,03:27,South San Francisco,22:43,3317.38
-23,Allstate,Polina Abramenko,Novoukrayinka,22:19,North Miami Beach,13:04,3835.11
-24,Ball Corp.,Svjatoljub Baranjuk,Velyka Novosilka,15:29,Monroeville,17:11,8275.13
-25,Colgate-Palmolive,Roksolana Avdyeyenko,Kolomak,03:26,Elkhart,00:29,8402.31
-26,Vistikon,Rohvolod Andrijuk,Ljubar,00:08,Godfrey,01:37,2999.73
-27,QCR Holdings,Vlasta Babenko,Ovidiopol',08:21,Paterson,22:21,7630.95
-28,Netaid,Stanyslav Arkhypenko,Chuhuyiv,10:16,Nashua,04:23,1793.08
-29,Integra Wealth Planners,Afina Averchenko,Ivanivka,16:47,Mooresville,07:26,6221.39
-30,Papa John's Pizza,Tsaruk Avdyeyenko,Chernihivka,20:26,Arvada,20:49,2508.64
-31,Bold Ideas,Tverdohosta Akulenko,Orikhiv,20:44,Thousand Oaks,23:05,3317.94
-32,Emerson Electric Company,Heorhina Bevz,Kehychivka,23:51,Twentynine Palms,00:44,6927.7
-33,Marathon Oil,Heorhij Babenko,Barvinkove,14:59,Albuquerque,17:53,8743.17
-34,Hyland Software,Aelita Artjushenko,Borova,21:38,Riverside,05:15,8086.85
-35,Comodo,Tava Azhazha,Hertsa,17:08,Brawley,00:25,5324.78
-36,The Network Chef,Myloslava Bevzenko,Mashivka,09:06,Mason,14:12,4381.3
-37,Full Color,Domorad Bashpolchenko,Pyrjatyn,06:06,Pearland,03:51,1202.94
-38,Equifax,Rudana Averchenko,Nosivka,20:30,Santa Clarita,15:11,5821.81
-39,Applebee's,Khudan Bazavluchenko,Melitopol',19:25,Angleton,21:12,8251.5
-40,Nortax,Lukija Bezushko,Pervomajs'k,02:02,Newburyport,07:46,6086.26
-41,Vectren,Nykodym Babych,Znam'janka,10:33,Baldwin,19:08,6348.71
-42,QVC,Pavlo Baltacha,Chemerivtsi,19:52,Owensboro,07:03,5570.16
-43,Sony Pictures Entertainment,Semybor Bal',Melitopol',18:09,Wilkinsburg,18:58,2997.39
-44,Monk Home Improvements,Bratymyr Bazhan,Kozel'shchyna,11:37,Chesterfield,22:45,2816.15
-45,Vulcan Corporation,Sjuzanna Balyka,Mizhhir'ja,23:58,Park Forest,22:39,8818.69
-46,DynCorp International,Rada Atamanjuk,Lokachi,07:19,Santa Clara,22:09,7925.96
-47,Facebook,Pylyp Artymovych,Novoarkhanhel's'k,15:17,Fishers,11:29,5654.95
-48,GTECH,Mylana Asaula,Onufriyivka,18:48,Eustis,15:40,8840.81
-49,DynCorp International,Orymyra Andrijovych,Ustynivka,00:24,Benicia,07:45,2907.14
-50,Twitter,Dobrylo Andrusjak,Popasna,13:45,Liberty,08:29,7415.3
-51,Watco Companies,Voyislav Barna,Orativ,14:05,Little Rock,17:04,4850.38
-52,United Airlines,Skol Baltacha,Blahovishchens'ke,05:55,Kaysville,11:08,8589.86
-53,ABX Air,Monika Baljukh,Brody,22:32,Green,08:38,4809.54
-54,Bucyrus International,Roksana Artymovych,Vin'kivtsi,22:59,Madisonville,22:55,8858.03
-55,Intelli Wealth Group,Mar'jan Balanchuk,Nedryhajliv,20:59,Crown Point,17:29,2936.35
-56,Buena Vista Garden Maintenance,Ahlaja Andrijchuk,Krasnopillja,05:13,Stafford,14:15,4574.37
-57,Adobe Systems Inc.,Kolodar Antonenko,Rokytne,20:50,Sand Springs,01:01,7352.92
-58,Energizer Holdings,Mstyvoj Basanets',Hajsyn,11:04,Alton,22:37,3125.55
-59,Safeway Inc.,Svyryd Bezpal'ko,Jur'yivka,10:09,Chino,19:03,8528.29
-60,Comodo,Jasnozir Afanasenko,Krasnokuts'k,03:28,Joplin,14:52,1870.27
-61,Wendy's/Arby's Group,Turbrid Anyshchenko,Berdjans'k,18:21,Leander,12:54,1440.26
-62,AutoZone,Artemija Andrijchenko,Chernihivka,00:01,Central Falls,11:51,3390.87
-63,Prospa-Pal,Dzvenyslava Bandurko,Ruzhyn,00:29,Brandon,12:31,7416.17
-64,Auto-Owners Insurance,Havrylo Andrijchuk,Myronivka,23:24,Chowchilla,04:35,3111.08
-65,Fisher Electronics,Afanasija Arkhypenko,Velyka Bahachka,05:46,Oxford,07:41,4603.43
-66,US Airways,Avrora Bazylevych,Brusyliv,09:08,Millbrae,02:58,5510.31
-67,Starz,Lidija Bezditko,Lokachi,06:16,Providence,20:43,8777.31
-68,Harman International Industries,Maj Bab'jak,Buryn',09:54,Raymore,15:04,5873.61
-69,Success Is Yours,Sontseslava Artjukh,Luts'k,13:15,Wadsworth,00:54,766.82
-70,GHD Inc.,Svitoljuba Androshchuk,Synel'nykove,02:07,Jonesboro,09:59,777.63
-71,Gamma Realty,Malyk Banakh,Zvenyhorodka,14:09,Galt,02:47,8517.31
-72,Magnavox,Vira Andrukhiv,Manevychi,11:43,Lacey,17:13,7509.66
-73,Microcat,Adam Artjushenko,Velyka Novosilka,10:40,Romulus,23:46,8860.84
-74,Continental Airlines,Ija Banakh,Poltava,17:29,Howard,15:51,2523.94
-75,E-zhe Source,Makar Bezditko,Ljubashivka,00:43,White Plains,14:49,3611.13
-76,Bristol-Myers Squibb,Ljana Bal',Nyzhn'ohirs'kyj,20:43,Bismarck,01:13,4766.78
-77,Applied Materials,Ivanna Batjuk,Tomashpil',06:14,Fountain Valley,06:00,7936.57
-78,Bemis Manufacturing Company,Ladyslava Bajdak,Nemyriv,06:02,Mattoon,16:32,6918.63
-79,Electronic Data Systems,Al'bina Babij,Nova Ushytsja,05:09,Rock Island,14:21,8936.08
-80,DC Comics,Arkadij Arsenych,Rakhiv,04:51,Menasha,05:45,8377.74
-81,Bechtel,Bozhen Bevz,Berdjans'k,22:21,Carlsbad,10:45,1907.84
-82,Garden Master,Mayina Alekseyenko,Valky,03:34,Stephenville,00:35,2209.95
-83,Netcordia,Myroboha Barannyk,Zboriv,11:16,Garner,18:53,4295.28
-84,Flexus,Andron Andolenko,Kolomyja,04:25,San Bruno,02:59,4489.15
-85,Gibson Guitar Corporation,Rid Barabash,Trostjanets',16:58,Johnson City,01:15,1646.96
-86,A+ Investments,Arkadija Baltacha,Pishchanka,21:33,Universal City,18:09,3914.31
-87,"Staples, Inc.",Ustyna Bevzenko,Kaharlyk,01:25,Moorpark,17:09,8660.01
-88,DuPont (E.I. du Pont de Nemours),Svobodan Avramenko,Tomashpil',01:28,Great Falls,10:12,7110.41
-89,ASARCO (American Smelting And Refining Company),Vasyl' Alekseyenko,Ochakiv,06:22,Normal,05:21,2364.67
-90,Integra Wealth,Nemyra Bandurka,Bobrovytsja,11:10,Webster Groves,03:46,8813.74
-91,Bemis Manufacturing Company,Serhij Andrukhovych,Lozova,05:22,Hutchinson,22:46,8203.04
-92,Airgas,Majja Afanasenko,Ovidiopol',20:06,Alton,04:21,4961.58
-93,Netaid,Heorhij Aleksandrenko,Novi Sanzhary,10:03,Wentzville,19:35,5590.58
-94,International Paper,Boleslava Bakalo,Verkhovyna,04:16,Havelock,12:03,4177.75
-95,Monk Home Improvements,Stanyslav Bezpal'ko,Sumy,00:25,Lumberton,23:04,2303.33
-96,Suadela Investment,Hostrozir Anyshchenko,Shepetivka,01:29,Nicholasville,11:43,6895.26
-97,Fresh Start,Sabrina Bevz,Hoshcha,16:42,Monrovia,21:14,5420.86
-98,Vibrant Man,Andrij Bavrychenko,Holovanivs'k,07:15,Waco,03:23,6113.85
-99,Vistikon,Vytomyr Artjushenko,Velykyj Burluk,10:19,St. Petersburg,23:48,3788.97
-100,Digi-Key,Sekleta Abramets',Lokachi,16:07,Georgetown,21:40,7755.63
-101,Realty Depot,Adrijan Atroshchenko,Rohatyn,02:30,Cedar Falls,19:40,7021.55
-102,Fireball,Turboh Atamanchuk,Makariv,19:36,Newburgh,16:30,5816.91
-103,Electronics Source,Feodora Antkiv,Nova Odesa,21:14,Hays,20:13,7441.3
-104,Blockbuster Inc.,Yevfrosynija Andrusenko,Mar'yinka,07:56,Riverside,22:49,7911.01
-105,Vivitar,Dolyna Avdyeyenko,Storozhynets',08:49,Orland Park,08:53,6200.72
-106,Dippin' Dots,Marija Baran,Ruzhyn,08:30,O'Fallon,17:49,6109.65
-107,Borders Group,Volodyslav Batjuk,Kolomak,07:01,Fontana,02:38,3751.62
-108,Datacorp,Mavka Balyka,Kaniv,18:04,San Gabriel,05:59,7690.09
-109,Science Applications International Corporation (SAIC),Ruslana Belonovych,Drabiv,20:10,Little Elm,08:03,7316.65
-110,Monlinks,Nedan Bezushko,Horodenka,02:19,Dinuba,12:36,7850.2
-111,Darden Restaurants,Yehor Babich,Volodymyr-Volyns'kyj,10:32,Northfield,06:17,5170.87
-112,The Liberty Corporation,Ivanna Bazhan,Dubno,16:54,St. Louis,15:04,2188.47
-113,KBR,Svitoljub Bab'juk,Tul'chyn,19:36,St. George,23:09,7422.79
-114,Solution Realty,Movchan Bajsarovych,Velyka Oleksandrivka,23:40,Independence,15:42,8160.43
-115,Better Business Ideas and Services,Diana Alekseyenko,Bilovods'k,16:48,Watsonville,12:38,7727.0
-116,The White Rabbit,Karyna Bahrij,Zbarazh,16:39,Bend,22:48,1323.42
-117,AutoNation,Mykhajlyna Babij,Krolevets',23:57,Sahuarita,21:00,6259.94
-118,Freedom Map,Blahovist Bezpalenko,Slavuta,13:27,Brawley,19:58,6188.21
-119,Russell Investment Group,Marta Antoniv,Korsun'-Shevchenkivs'kyj,05:10,Sanford,23:10,7809.33
-120,Kenworth,Zhanna Baranyk,Svaljava,00:20,San Bernardino,07:04,264.43
-121,System Star Solutions,Ladomyra Balahura,Skole,13:48,Oregon,05:44,2020.26
-122,Lee (jeans),Severyn Batjuk,Petrykivka,19:40,Natchitoches,15:46,2743.0
-123,VMware,Bratymyr Belej,Ichnja,21:43,Sandusky,09:38,4637.2
-124,Red Hat,Afanasija Andriyevych,Obukhiv,23:49,National City,09:06,4233.83
-125,Strategy Planner,Lola Baltacha,Mykolayiv,20:58,Bismarck,05:00,6154.87
-126,New Era Tickets,Hordohost Afendyk,Kivertsi,19:09,Patterson,12:00,735.69
-127,Facebook,Ladoljub Andrijuk,Izmayil,15:07,National City,22:12,1160.69
-128,Towers Perrin,Karyna Antonets',Volovets',12:21,Lewisville,10:32,4444.16
-129,Circuit Design,Bohuslav Averchenko,Ichnja,03:53,Los Banos,10:55,7802.16
-130,Converse,Podoljan Bezpalyj,Khrestivka,03:26,Haines City,09:00,8485.64
-131,Kenworth,Nestor Baloh,Khust,06:34,Pittsburg,18:52,1855.54
-132,Hoyden,Blahovyd Bezpel'chenko,Amvrosiyivka,03:30,Banning,22:47,3212.06
-133,Zapata,Serhij Andriyishyn,Stara Synjava,02:17,Madison,17:12,1279.8
-134,Parallel Px,Vasylyna Artymovych,Novovorontsovka,01:31,Chesapeake,15:14,8751.44
-135,Alexander & Baldwin,Anzhela Alchevs'ka,Khmel'nyts'kyj,11:45,Oak Park,23:51,5701.65
-136,Listen Up,Sobibor Babychenko,Tysmenytsja,08:05,Converse,23:33,3153.67
-137,Gateway Computers,Drevoslava Batih,Amvrosiyivka,01:44,San Bernardino,20:15,3202.44
-138,The Walt Disney Company,Beatrysa Asaula,Dzhankoj,10:10,Asheville,05:27,8326.95
-139,Ocean Spray,Mstyboh Bezpal'ko,Vyshhorod,10:02,Macon,16:58,1282.77
-140,Copeland's,Syloslava Avdyeyenko,Luts'k,21:54,Stillwater,04:28,2620.29
-141,Wealth Zone Group,Alla Andrushkiv,Narodychi,07:32,North Miami Beach,11:37,5688.2
-142,Omni Source,Al'vina Belonovych,Kam'janka-Buz'ka,18:16,Dalton,12:25,5166.33
-143,Smith and Company,Radko Bazhan,Rokytne,08:58,Douglas,03:14,8440.78
-144,A+ Electronics,Khoryv Bezpalenko,Bus'k,15:46,Portland,11:39,2780.68
-145,Earthworks Garden Kare,Rus (Rusan) Andrijovych,Turka,13:31,South Jordan,23:24,8765.68
-146,Cut Rite Lawn Care,Yeva Andrjushchenko,Zdolbuniv,02:31,Buena Park,03:06,8558.92
-147,Nike,Semybor Bakalo,Novhorod-Sivers'kyj,03:08,West Jordan,00:35,6818.95
-148,Anadarko Petroleum Corporation,Horymyr Andrushchenko,Obukhiv,14:23,Kansas City,01:18,3049.98
-149,Yahoo!,Yivha Bazhan,Izjaslav,19:30,Kenosha,11:18,4071.81
-150,Imation,Ljana Bajdak,Zboriv,13:47,Manassas,02:51,5387.81
-151,Ground Round,Orijana Bezborod'ko,Vasylivka,11:29,Mattoon,16:12,2526.9
-152,Belk,Dobromyla Baranovych,Amvrosiyivka,00:56,Carmel,09:00,3361.24
-153,Dun Rite Lawn Care,Vilena Alekseyenko,Lozova,04:19,Whittier,17:49,8119.02
-154,Pointers,Rayina Bevzenko,Shepetivka,17:09,Pittsburg,04:41,7129.07
-155,Strategic Profit,Ostrozora Baljuk,Volovets',20:53,Nicholasville,16:17,1135.79
-156,AMR Corporation,Orohosta Andrusyshyn,Hajsyn,20:33,El Centro,11:25,7393.85
-157,Eden Lawn Service,Sofija Babich,Ivanivka,14:38,Wisconsin Rapids,04:58,7205.43
-158,AND1,Marija Andriyevs'ka,Nedryhajliv,16:46,Godfrey,21:15,5162.76
-159,Bushmaster Firearms International,Rodion Artymovych,Rozhyshche,09:43,Chicopee,23:41,1847.28
-160,H&R Block,Osypa Armashenko,Cherkasy,03:36,Butte-Silver Bow,12:43,2796.34
-161,Service Corporation International (SCI),Vohnedar Baranovych,Lokachi,18:56,New Brunswick,23:45,5385.3
-162,Independent Investors,Malomyr Anhelovych,Stara Synjava,03:31,Hercules,11:02,484.93
-163,Dominion Resources,Kvitka Batenko,Onufriyivka,04:56,Wooster,16:30,5246.61
-164,Mikro Designs,Khudan Averchenko,Rohatyn,16:10,Cicero,20:18,1342.39
-165,Conseco,Radmyla Bezpal'ko,Mukacheve,04:32,Diamond Bar,03:48,687.62
-166,Friendly Interior Design,Zakhar Afendyk,Manhush,06:22,Wheaton,21:21,3014.43
-167,Success Is Yours,Ruslana Babych,Kitsman',11:16,Lima,16:48,4888.97
-168,Tanadgusix Corporation,Berta Andrijashev,Bakhmach,07:15,Daytona Beach,02:59,691.05
-169,Marantz,Peresvit Bazylevych,Rozivka,14:59,Chico,17:57,5130.62
-170,Advanced Micro Devices,Radomyr Azhazha,Kostjantynivka,10:30,Bainbridge Island,04:26,1127.93
-171,Dex One,Heorhina Bezborod'ko,Mar'yinka,09:46,Los Altos,11:39,4111.11
-172,World of Fun,Mezhamyr Aronets',Slov'jans'k,20:19,Aberdeen,11:24,732.19
-173,BFG Technologies,Podoljan Balenko,Tal'ne,00:06,Monroeville,06:18,7153.88
-174,Xerox,Nihoslava Bezus,Snihurivka,19:40,Angleton,09:08,2662.11
-175,MTX Audio,Mykhajlo Batjuk,Kalush,02:25,Vicksburg,00:52,2714.62
-176,Gamma Realty,Zorjana Bazylevych,Kostjantynivka,13:28,Griffin,16:32,5431.62
-177,Intel,Dobromyr Babarychenko,Sharhorod,03:59,Copperas Cove,03:58,4464.53
-178,Quickbiz,Maruta Andriyevs'ka,Tetiyiv,17:04,Terrell,13:51,830.48
-179,Prahject Planner,Zhyvoslav Azhazha,Boryspil',16:20,Elmira,17:00,5100.4
-180,Buena Vista Garden Maintenance,Mezhamyr Anishchenko,Hadjach,05:51,Dallas,00:32,1339.45
-181,Kingston Technology,Stojan Bavrychenko,Horodok,17:30,Burlingame,05:25,6973.64
-182,Amazon.com,Vohnedar Bezborod'ko,Hajvoron,01:30,Statesboro,14:02,7856.23
-183,Afforda,Lukija Abramenko,Lutuhyne,22:49,Palos Hills,17:29,4919.85
-184,The Lawn Guru,Tverdyslav Bazylevych,Yedy-Kuju,20:31,Aventura,19:04,3584.55
-185,Dollar General,Vlast Andrijchenko,Tomashpil',04:18,Key West,07:54,7796.18
-186,Nike,Svitojara Andriyenko,Perejaslav-Khmel'nyts'kyj,23:28,La Vergne,16:53,3723.55
-187,Komerci,Ratymyr Afanasenko,Kobeljaky,00:49,West Bend,06:43,5892.94
-188,Wheeling-Pittsburgh Steel,Lidija Armashenko,Poltava,14:23,Watauga,03:57,8656.32
-189,Chargepal,Dobroslava Bezpalkiv,Heniches'k,04:30,Bergenfield,16:39,5843.59
-190,Hoyden,Maj Alchevs'ka,Bilopillja,08:54,Rohnert Park,17:03,6305.39
-191,QCR Holdings,Oryna Babjuk,Chernivtsi,09:46,Pleasantville,06:33,1764.77
-192,Solution Realty,Svitojar Bahmut,Volodymyr-Volyns'kyj,21:43,Petaluma,08:57,985.81
-193,Monk Real Estate Service,Dybach Baloha,Olevs'k,16:24,Chico,22:15,3503.3
-194,Liberty Wealth Planners,Sudyvoj Abramenko,Krasnokuts'k,09:41,Andover,22:21,3503.03
-195,RadioShack,Mal'va Baranovych,Myronivka,08:30,Tahlequah,13:12,8548.16
-196,Tupperware Brands Corporation,Rudan Behma,Oleshky,20:13,Fairborn,05:45,4091.88
-197,Infinite Wealth Planners,Podoljan Atamanjuk,Bershad',10:22,Irvine,23:26,5927.27
-198,KFC,Severyn Batih,Slov'jans'k,06:07,Clearwater,15:12,2450.19
-199,Monk Home Funding Services,Harnoslav Baloh,Svatove,04:07,Shoreline,14:07,7891.83
-200,Pfizer,Arkadija Balahura,Mar'yinka,08:41,Apple Valley,02:14,7135.14
+1,Miro Technologies,Tsaruk Bal',Izjum,11:39,Avondale,04:04,7148.01
+2,Netobill,Juhyna Bemer,Balaklija,20:59,Hazelwood,20:05,3299.97
+3,Pro Yard Services,Boryslav Belej,Kryvyj Rih,16:20,Huntington Park,10:43,2557.76
+4,Liberty Wealth Planners,Barbara Atroshchenko,Volochys'k,22:42,Pottstown,04:21,516.26
+5,Hunt Petroleum,Oryna Afanasenko,Tarutyne,10:20,Birmingham,05:45,6687.71
+6,VIZ Media,Myron Baranets',Rozhyshche,14:23,Plainfield,19:53,1199.58
+7,ArvinMeritor,Kornelija Babij,Semenivka,14:08,Jonesboro,00:40,4900.15
+8,Helios Air,Al'bertyna Akymenko,Pereval's'k,12:27,Plum,12:10,3977.19
+9,Edge Garden Services,Khvalyboh Bedzyk,Lokhvytsja,16:20,Woodland,05:14,4690.0
+10,Devon Energy,Svjatovyd Banakh,Chaplynka,11:24,Yucca Valley,16:23,2161.2
+11,U.S. Robotics,Konstantsija Badrak,Nova Vodolaha,17:19,Prairie Village,13:10,8837.35
+12,Deere & Company,Volodymyr Batenko,Rohatyn,18:44,Warrensburg,10:25,4260.89
+13,Omni Tech Solutions,Orymyra Abramets',Ovruch,22:34,Ardmore,20:04,877.75
+14,Price Waterhouse Coopers,Veronika Bazylevych,Myrhorod,22:50,Federal Way,03:20,4138.59
+15,Creative Wealth Management,Mahdalyna Andrejko,Troyits'ke,06:32,New Bedford,20:58,5889.3
+16,Federal Home Loan Mortgage Corporation,Serdytko Babeshko,Krasnohrad,06:17,Oregon,23:31,7768.7
+17,Quest Software,Prebyslav Babychenko,Jarmolyntsi,03:57,Paso Robles,07:59,407.41
+18,Bank of America,Tsaruk Banakh,Hoshcha,04:01,Palm Beach Gardens,13:57,2664.59
+19,Wealthy Ideas,Terentij Avdyeyenko,Tul'chyn,08:13,Hanford,06:42,1852.38
+20,Quantrix,Afina Bezzubenko,Pervomajs'k,02:05,Waterloo,06:54,7547.18
+21,Citrix,Chara Bezruchko,Sokal',17:41,Cookeville,21:24,7274.85
+22,Dominion Resources,Tvoryslava Bezzubenko,Baranivka,15:05,Fontana,15:59,2773.38
+23,OCZ Technology,Dobryvod Aleksandrenko,Novyj Buh,00:48,Oro Valley,16:18,8425.55
+24,Yahoo!,Amvrosij Bajdak,Lypovets',09:43,Piqua,03:06,467.74
+25,US Cellular,Assol' Andrijovych,Bilopillja,11:51,Apache Junction,09:42,5611.41
+26,MasterCard,Poljana Atroshchenko,Kryve Ozero,16:51,Safety Harbor,10:27,2634.81
+27,Stratapro,Dalibor Babarychenko,Mashivka,22:51,Santa Barbara,03:30,2939.75
+28,Briggs & Stratton,Perejaslav Bajdak,Berdychiv,22:58,Arcadia,17:30,3970.49
+29,Tanadgusix Corporation,Dobroniha Babich,Kryvyj Rih,12:47,Bethany,15:01,8718.73
+30,Imation,Dobroljub Baltacha,Popasna,19:02,Los Banos,08:43,8215.79
+31,Microcat,Poljana Andriyevych,Kurman,06:52,Bryan,07:53,5229.25
+32,Amgen,Azar Avdyeyenko,Stryj,14:43,Pacifica,09:56,8491.6
+33,Myspace,Roza Andrushchenko,Lypovets',20:29,Poughkeepsie,04:36,133.05
+34,Netaid,Kapitolina Babjuk,Orzhytsja,02:35,Huber Heights,00:42,5164.03
+35,Kroger,Voleljub Andrijashev,Slov'janoserbs'k,11:07,Homer Glen,04:30,959.44
+36,BlueLinx Holdings,Vratan Bezpalkiv,Ruzhyn,12:09,McKinney,08:10,1433.01
+37,Personal & Corporate Design,Severyn Babjuk,Sribne,11:03,Shreveport,11:34,5253.74
+38,Delta Air Lines,Veronika Bezpalkiv,Borshchiv,18:06,Hesperia,02:34,4859.04
+39,Sexy Babe,Rostychar Baranets',Kup'jans'k,08:37,Duncan,10:34,8004.87
+40,AnaSpec,Kvitka Barannyk,Ivanivka,18:30,Seguin,15:34,6629.56
+41,VonMaur,Bozhen Andriyevs'ka,Ripky,11:19,Burlington,15:01,7527.21
+42,eBay,Artemija Balahura,Verkhnij Rohachyk,14:40,Hurst,23:05,8306.47
+43,Baxter International,Bilomyra Avramenko,Shostka,07:14,Shreveport,10:09,2968.01
+44,Ann Taylor,Myrana Bel'kevych,Kozova,14:29,Wichita,19:32,2821.45
+45,Omni Source,Jasnolyk Andrijuk,Shpola,10:53,Puyallup,02:41,7963.23
+46,Caterpillar Inc.,Osmomysla Baltacha,Mykolayivka,13:00,Lake Oswego,22:17,3580.2
+47,Gibson Guitar Corporation,Khrysa Benjuk,Boryspil',13:23,Asheville,22:11,5334.92
+48,Fisher Electronics,Rufina Bezshchasnyj,Oleshky,13:25,Broadview Heights,00:26,4051.91
+49,Strategy Planner,Hordodum Belonovych,Kropyvnyts'kyj,15:54,Wasco,11:42,3210.18
+50,Realty Solution,Ahafija Bavrychenko,Simferopol',10:56,American Fork,22:25,4366.37
+51,First Choice Garden Maintenance,Anisij Bezuhlyj,Kulykivka,18:35,Thousand Oaks,02:46,1816.63
+52,Multi Tech Development,V'jacheslav Arkhymovych,Krolevets',23:38,Altus,06:38,6328.94
+53,Local Matters,Lolit Anishchenko,Petrykivka,23:36,Lakewood,13:33,8862.45
+54,Arryx,Mykhajlyna Andrushko,Radyvyliv,07:10,Manassas,15:43,502.56
+55,Fit Tonic,Mykhajlo Bezborod'ko,Perejaslav-Khmel'nyts'kyj,16:12,Brigham City,06:54,6631.31
+56,Landskip Yard Care,Nastasija Bezpel'chenko,Kurman,18:39,Hempstead,03:35,3647.54
+57,Total Sources,Anatolija Baloh,Rivne,19:54,Wauwatosa,14:10,7723.23
+58,Bechtel,Dobrolyk Aleksandrovych,Demydivka,07:35,Milford,02:16,1003.31
+59,Lowe's,Vitrjan Behma,Chyhyryn,20:46,Bothell,15:55,7027.07
+60,Wendy's/Arby's Group,Ulychan Baltarovych,Mukacheve,20:25,Bonney Lake,10:34,6852.65
+61,McConn & Company,Kyj Bajsarovych,Tjachiv,21:59,Cumberland,15:36,1553.15
+62,Belle Lady,Anna Andriyishyn,Dunayivtsi,14:56,Waco,15:35,8703.7
+63,AutoNation,Vyshezor Arkhymovych,Khorshiv,00:04,Southlake,09:27,3255.78
+64,Multicerv,Valentyn Bezditko,Hlukhiv,13:42,Pearland,03:49,4644.07
+65,Dollar General,Berta Avramenko,Tlumach,00:26,Eagan,04:29,1241.4
+66,Gap,Lybid' Asaula,Korsun'-Shevchenkivs'kyj,14:29,Lake in the Hills,18:34,5461.77
+67,Grey Fade,Esmeral'da Bezborod'ko,Izmayil,01:02,Easley,06:47,239.45
+68,Cougar Investment,Assol' Andrijovych,Bolhrad,06:01,Stow,09:26,6102.47
+69,American Axle,Jarosh Andrejchenko,Shyrjayeve,12:14,West Chicago,23:18,8469.95
+70,Monk Home Improvements,Domna Babko,Sosnytsja,03:31,Oakley,21:25,3266.32
+71,NetZero,Zboyislav Androshchuk,Velyka Novosilka,15:28,Bonney Lake,11:04,416.33
+72,Rockstar Games,Mstyboh Bezus,Velyka Bahachka,19:23,St. Cloud,08:01,5668.31
+73,BearingPoint,Arkadij Akulenko,Nova Vodolaha,19:32,Inglewood,13:05,2523.73
+74,Profitpros,Omeljan Artjushenko,Hornostayivka,10:48,Bryan,05:55,3102.27
+75,Regis Corporation,Tymish Barbon,Lokachi,21:38,Fountain Hills,13:52,2256.42
+76,Diebold,Bozhena Belonovych,Rozhnjativ,11:23,Edinburg,21:21,2892.92
+77,International Paper,Hatuslav Babychenko,Cherkasy,09:10,Tacoma,20:55,8788.38
+78,Dow Jones & Company,Kurylo Barvinok,Monastyrys'ka,00:52,Westfield,06:03,8278.63
+79,Electric Boat,Valentyna Bavrychenko,Sarny,13:00,Conway,15:45,8018.02
+80,Good Times,Ljubomyr Antonets',Poltava,13:56,Seattle,01:41,5489.16
+81,"Yum! Brands, Inc.",Marharyta Abramets',Polonne,14:47,Canton,19:46,8699.22
+82,Bosch Brewing Company,Horymyr Artjushenko,Shats'k,23:11,Fall River,09:55,1248.33
+83,Home City Ice Co.,Zlata Bajdak,Krasnokuts'k,15:07,SeaTac,22:54,3279.61
+84,Omni Source,Kassandra Avdyeyenko,Mezhova,22:41,St. Joseph,13:59,8647.93
+85,JN-International Medical Corporation,Spas Bavrychenko,Pishchanka,19:49,Marlborough,13:35,1287.71
+86,Goldman Sachs,Ulyta Avdyeyenko,Anan'yiv,00:15,Avenal,04:52,2416.65
+87,Monsanto Company,Afina Andriyevych,Korostyshiv,05:51,Sanford,23:22,6997.73
+88,Zoom Technologies,Panas Artym,Svaljava,08:20,Bergenfield,20:41,5563.2
+89,The Flying Hippo,Kalenyk Andrijashev,Borzna,05:39,Lodi,13:51,3550.22
+90,XPAC,Pava Balenko,Verkhovyna,03:43,Rochester,05:04,6964.26
+91,Brinker International,Vlad Andrukhovych,Blyznjuky,05:33,Godfrey,11:12,3252.55
+92,Maxaprofit,Vyshata Balahura,Novoukrayinka,05:41,Menomonee Falls,06:13,3873.88
+93,Universo Realtors,Mar'jan Bezpalenko,Shostka,20:05,Neenah,14:38,5256.13
+94,Edge Yard Service,Jasnohor Bhydenko,Semenivka,22:10,Orem,00:05,2354.28
+95,Gas Depot,Rodoslava Antonenko,Ovruch,00:11,Irvine,06:00,6184.15
+96,Quest Technology Service,Rusudana Andrejchenko,Zastavna,20:58,Arroyo Grande,14:46,5838.09
+97,BJ's Wholesale Club,Vohnjan Andrjushchenko,Krasyliv,04:55,Lawndale,01:20,3355.44
+98,"Cisco Systems, Inc.",Zboyislav Bevzenko,Velyka Bilozerka,17:00,Muskogee,00:37,3735.56
+99,Prestiga-Biz,Serhij Baltarovych,Blahovishchens'ke,02:40,Brandon,01:30,2721.2
+100,Federal National Mortgage Association,Kostjantyn Andrushchenko,Dobrovelychkivka,01:44,Gilbert,09:56,6353.04
+101,The Coca-Cola Company,Blahovira Babich,Reni,01:55,Forest Grove,07:57,5360.84
+102,Dreamscape Garden Care,Rozhden Bazavluchenko,Volodymyr-Volyns'kyj,06:07,Nogales,15:05,7024.38
+103,Integra Wealth Planners,Anzhela Andrusiv,Irshava,13:26,Clarksburg,15:05,3918.75
+104,AGCO,Fylitsata Barbon,Mykolayiv,04:36,Liberal,23:38,8527.16
+105,The Fox and Hound,Ruslana Belonovych,Zalishchyky,23:58,Massapequa Park,09:04,2142.8
+106,Vaughan & Bushnell Manufacturing,Ija Bezzubenko,Shepetivka,08:02,Sun Prairie,10:50,3796.61
+107,Sonic Solutions,Rostychara Avramenko,Voznesens'k,23:42,Lima,17:29,373.65
+108,Bushmaster Firearms International,Rostunja Androshchuk,Bershad',16:14,Bonita Springs,11:47,4413.55
+109,Johnson & Johnson,Dalemyra Bal',Zhydachiv,08:57,Sulphur,07:33,4107.38
+110,Seagate Technology,Konstantsija Avdyeyenko,Mykhajlivka,11:11,Sulphur,16:02,8995.97
+111,ExxonMobil,Ihoryna Balakunets',Markivka,11:33,Birmingham,09:34,7473.0
+112,Omni Group,Medomyr Andrusjak,Dzhurchy,04:41,Plattsburgh,16:06,6320.27
+113,Avon Products,Najdena Artymovych,Dzhurchy,13:52,The Colony,18:01,7021.78
+114,Monk Home Funding Services,Stepan Bezpalyj,Mena,09:32,St. Cloud,23:41,3282.22
+115,Lawn N' Order Garden Care,Emmanuel' Arkhymovych,Rozdol'ne,04:44,Edgewater,22:53,5419.19
+116,First Hawaiian Bank,Mayina Avramenko,Jakymivka,04:05,Granite City,14:42,8562.45
+117,Indiewealth,Kateryna Bavrychenko,Dovzhans'k,06:07,Jersey City,19:19,3120.34
+118,Sauer-Danfoss,Ostromova Anishchenko,Rohatyn,05:31,Sachse,00:39,6772.38
+119,American Eagle Outfitters,Yevfrosynija Babenko,Kolomak,10:23,Parma,12:49,2281.58
+120,Universal Design Partners,Bohdan Bal',Pereval's'k,07:11,New Britain,06:55,7538.34
+121,Sprint Nextel Corporation,Tymofij Avdyeyenko,Pervomajs'k,00:40,Alliance,14:20,4632.61
+122,Medimix International,Kvitan Anyshchenko,Krasnohrad,19:01,Elizabethtown,18:01,8226.31
+123,Integra Wealth Planners,Slavoljub Antonjuk,Nyzhni Sirohozy,15:11,Clemmons,09:53,4881.57
+124,Miller Brewing,Sabrina Bezpalyj,Synel'nykove,13:38,Meriden,13:48,2239.55
+125,Polaris Industries,Boryslav Andriyishyn,Lebedyn,18:24,Mint Hill,12:15,7792.17
+126,S3 Graphics,Eleonora Anyshchenko,Drohobych,20:58,Alamo,14:21,6042.47
+127,Jackpot Consultant,Blahovira Balema,Hoshcha,23:17,Cypress,02:25,4449.38
+128,Fox Film Corporation,Vohnjan Balema,Krasjatychi,02:51,Norwich,23:38,8904.21
+129,Netcom Business Services,Radomysl Batjuk,Vesele,14:10,Toledo,23:40,1015.09
+130,Platinum Interior Design,Tykhomyr Avdyeyenko,Nyzhn'ohirs'kyj,07:13,Zanesville,17:26,967.93
+131,American Broadcasting Company,Artemizija Alchevs'ka,Mykolayivka,20:09,Fort Smith,19:11,3301.55
+132,XPAC,Elvina Arkhymovych,Dvorichna,16:50,Manassas,01:50,6155.78
+133,Exact Realty,Ostrozor Bavrychenko,Berehove,15:10,Manchester,11:19,1684.89
+134,Albertsons LLC,Krasymyra Antonenko,Horodok,03:51,Marana,20:22,6108.07
+135,Dollar General,Mahadara Arkhypenko,Kam'janets'-Podil's'kyj,09:16,Gardner,18:08,3121.69
+136,Tesoro,Lev Bavrychenko,Kulykivka,20:01,North Plainfield,22:10,175.23
+137,DRS Technologies,Pelahija Bezditko,Mezhova,20:50,East Lansing,16:46,826.39
+138,Monk House Sales,Malyk Artym,Rozhyshche,06:14,Post Falls,20:21,7370.56
+139,CDI Corporation,Rostychar Bebeshko,Radekhiv,11:47,Ceres,14:31,5982.39
+140,ASARCO (American Smelting And Refining Company),Krylach Baranovych,Artsyz,14:00,Hoover,10:47,1766.46
+141,Vantec,Daryna Andrukhovych,Kropyvnyts'kyj,12:42,Rancho Palos Verdes,03:05,1785.21
+142,Omnicare,Ruslana Bezshchasnyj,Slov'jans'k,16:16,Overland Park,03:57,3013.62
+143,Barnes & Noble,Barbara Arkhypenko,Uman',07:17,Oak Harbor,04:19,6957.43
+144,Fiserv,Teklja Bhydenko,Zachepylivka,21:31,Canton,22:07,7844.9
+145,Tully's Coffee,Konon Andrijashev,Artsyz,06:50,Walnut Creek,06:14,4074.61
+146,Matrix Architectural Service,Serafyma Averchenko,Mukacheve,08:47,Paducah,14:21,1474.92
+147,Papa John's Pizza,Elvina Badlak,Ichki,02:35,Wyoming,20:04,1503.63
+148,Valero Energy Corporation,Rut Abramets',Znam'janka,13:05,Calexico,21:01,531.02
+149,The Coca-Cola Company,Kyrylo Bazhan,Ljubar,02:25,Laguna Niguel,14:30,8494.66
+150,Universal Design Partners,Zhozefina Bezpalenko,Ustynivka,10:27,Jupiter,12:43,3965.14
+151,Accuquote,Zlatousta Basanets',Chortkiv,06:53,Roselle,18:47,6457.23
+152,Texas Instruments,Nykodym Anhelovych,Khrestivka,15:18,Willoughby,14:14,6757.36
+153,BlackRock,Oleksandr Batjuk,Shevchenkove,14:39,Murrieta,11:46,869.47
+154,Monit,Onufrij Barvinok,Lubny,04:19,Ashwaubenon,12:49,5896.15
+155,Universal Design Partners,Kapitolina Belonovych,Izjaslav,12:20,Sugar Hill,13:25,4871.37
+156,Exelon Corporation,Sekleta Barna,Chornomors'ke,04:26,Redmond,16:04,4125.54
+157,Paxton Media Group,Nezabudka Andolenko,Snovs'k,23:47,Wyandotte,09:31,8058.57
+158,Adaptabiz,Eleonora Bajsarovych,Jampil',16:19,West Des Moines,09:39,8079.51
+159,The Pink Pig Tavern,Doleslava Bezpel'chenko,Kam'janka-Dniprovs'ka,04:03,Atlantic City,16:57,7901.38
+160,Magna Architectural Design,Svyryd Andrijchenko,Zboriv,13:08,Prattville,04:11,3187.54
+161,Titania,Potap Arkhypenko,Volnovakha,00:36,Lynbrook,14:34,7436.28
+162,Devon Energy,Danko Babychenko,Bila Tserkva,12:30,Kingman,19:22,3216.32
+163,Total Yard Maintenance,Osemryt Andrejchenko,Sosnytsja,01:57,Jacksonville,16:55,4938.09
+164,Buena Vista Realty Service,Volodymyr Abramenko,Bojkivs'ke,13:54,Nashua,06:21,8413.57
+165,The Lawn Guru,Kolodij Baranjuk,Mala Vyska,21:26,Springdale,06:39,7100.46
+166,Emcor,Berehynja Babychenko,Korets',04:03,Lindenhurst,06:29,2884.77
+167,Zephyr Investments,Nadij Baranyk,Vradiyivka,00:51,Castle Rock,10:29,4774.62
+168,Maxaprofit,Stanymyr Andolenko,Bilohirs'k,20:10,Garfield,20:17,5140.49
+169,Earthworks Garden Kare,Isydora Andrushkiv,Shums'k,02:39,Concord,19:55,1717.81
+170,Costco,Roksana Andrukhiv,Novomykolayivka,02:57,Waltham,22:15,8187.22
+171,Energizer Holdings,Oryna Belej,Bilohirs'k,17:01,San Benito,07:59,6775.01
+172,Twitter,Kostjantyn Balej,P'jatykhatky,02:03,Fargo,13:48,2595.09
+173,McConn & Company,Artemizija Badlak,Poltava,06:01,Minnetonka,15:16,353.69
+174,Berkshire Hathaway,Zhyvosyl Babychenko,Volodymyrets',01:00,St. Matthews,21:37,3308.57
+175,Caterpillar Inc.,Radomyra Bal',Velykyj Burluk,20:43,Mount Clemens,19:52,8185.05
+176,The Library Corporation (TLC),Vladyslava Bemer,Yelanets',00:42,Tifton,16:25,4706.95
+177,Benesome,Jukhymija Artym,Snovs'k,03:37,Bellaire,12:59,2817.14
+178,Anchor Bay Entertainment,Donna Bezpel'chenko,Karlivka,04:32,Coral Gables,08:18,7322.66
+179,Realty Zone,Fevronija Balema,Tetiyiv,02:43,La Vergne,18:56,2540.1
+180,Burlington Coat Factory,Rufina Balanchuk,Kharkiv,05:46,Michigan City,02:05,6587.28
+181,Applebee's,Blahoslava Anhelovych,Orzhytsja,20:54,Surprise,21:56,1013.4
+182,Maxtor Corporation,Susanna Bal',Teplyk,11:33,Fort Smith,14:50,2623.32
+183,First Choice Garden Maintenance,Justyna Bhydenko,Zhovkva,12:31,Walnut,02:05,306.62
+184,Pro Yard Services,Pylyp Balyts'kyj,Radomyshl',19:20,Albert Lea,19:12,4802.37
+185,Silicon Image,Tvoryslav Banakh,Voznesens'k,05:46,South San Francisco,13:40,8883.63
+186,Burlington Coat Factory,Makar Andrijchenko,Romny,23:30,Rome,00:12,7538.83
+187,BearingPoint,Valerija Bezzubenko,Skole,13:36,Akron,15:08,8159.4
+188,Sony Pictures Entertainment,Vyshezor Arkhymovych,Derazhnja,11:07,Mankato,12:58,1088.41
+189,Access Asia,Vlad Bandurka,Chornobaj,18:35,Kearney,23:43,228.83
+190,Shirokiya,Us Bebeshko,Stara Vyzhivka,09:42,Sugar Land,17:40,1833.26
+191,Ann Taylor,Mylovan Baljukh,Nova Odesa,04:56,Ames,23:58,2720.4
+192,Kohler Company,Okhrim Andrukhiv,Lypova Dolyna,05:22,Michigan City,11:38,723.74
+193,Zune,Jasnovyd Bezruchko,Starobil's'k,03:44,Atlanta,08:52,8551.77
+194,Polaris Industries,Vitan Bashtan,Trostjanets',21:04,Apache Junction,23:06,3886.99
+195,Cut Above,Rodan Afendyk,Voznesens'k,09:44,Bethlehem,17:54,3392.13
+196,DST Systems,Vladylena Bezborod'ko,Lypovets',19:12,Garden Grove,22:12,2125.43
+197,Informix,Ljubozar Anishchenko,Jasynuvata,05:58,Ozark,13:23,3552.94
+198,Textron Inc.,Pystyna Baltarovych,Luts'k,19:39,La Verne,14:59,7250.73
+199,Intelli Wealth Group,Dalevyda Balej,Pervomajs'k,14:12,De Pere,03:03,3175.33
+200,Biggby Coffee,Kolodij Baloha,Rakhiv,11:25,National City,17:20,7587.21
+201,Pro Yard Services,Hlafira Andrusjak,Berehove,06:46,Keene,19:27,2574.33
+202,Payless ShoeSource,Tatomyr Bazylevych,Ivanivka,08:47,Middletown,06:34,4614.77
+203,First Rate Choice,Zhozefina Andrijuk,Velyka Bahachka,00:42,Logansport,03:31,6527.14
+204,American Apparel,Pelahija Bevzenko,Volodarka,11:22,Draper,21:21,3882.19
+205,Casco Bay Lines,Dobrysvit Barannyk,Chechel'nyk,18:45,Santa Ana,01:02,8249.53
+206,Verizon Wireless,Bohuslav Babij,Stara Vyzhivka,13:30,Staunton,13:16,4031.69
+207,Elizabeth Arden,Viroslava Batenko,Katerynopil',05:33,Golden Valley,06:35,8080.32
+208,Strength Gurus,Nazarij Belej,Shevchenkove,01:28,Statesville,11:36,7338.34
+209,Crazy Eddie,Hatusyl Babarychenko,Reni,03:46,Wheeling,18:36,6146.32
+210,McConn & Company,Svitoljub Bajdak,Kremenchuk,00:45,Franklin,10:25,4191.29
+211,TransDigm Group,Radoslava Andrejchyn,Zvenyhorodka,11:34,Pottstown,06:41,8342.4
+212,Fellowship Investments,Hustava Baloh,Ivanivka,13:31,Twin Falls,16:46,5006.83
+213,Ground Round,Ahapija Bandurka,Ljubashivka,22:31,Round Lake Beach,12:26,4212.71
+214,Balanced Fortune,Olimpiada Aleksandrenko,Dnipro,14:58,Laconia,03:43,3410.75
+215,Jackpot Consultant,Kuz'ma Belej,Hajsyn,16:02,Boynton Beach,03:44,6122.51
+216,Kenworth,Bozhen Babchenko,Nova Odesa,14:33,Bartlett,02:01,6048.68
+217,Fox Film Corporation,Ljubym Baranjuk,Lubny,17:28,Grand Prairie,11:56,6276.1
+218,Electronic Geek,Kvitoslava Andrukhiv,Vasylivka,04:13,Redmond,17:58,4366.55
+219,Yahoo!,Bratymyr Androshchuk,Melitopol',00:36,Elgin,05:54,7559.75
+220,RCA,Kolodij Balyka,Lityn,09:27,Baldwin Park,23:46,4472.98
+221,Dollar General,Hladko Andrushchenko,Buryn',05:59,McAllen,20:22,4469.61
+222,Gillette (brand),Mstyslav Bezpalkiv,Sharhorod,01:15,Mobile,03:44,5713.16
+223,American International Group,Inna Bab'juk,Perechyn,03:15,Lomita,00:18,6229.73
+224,Spectrum Brands,Burevij Basok,Borova,04:50,Fort Pierce,14:19,5682.64
+225,Gibson Guitar Corporation,Denys Barilko,Poltava,02:02,Newton,18:23,3018.66
+226,The Pink Pig Tavern,Kolodar Afanasenko,Shums'k,11:24,Rock Hill,08:41,6527.7
+227,Salary.com,Nihoslav Anyshchenko,Kosiv,00:33,Shreveport,17:05,5536.1
+228,QCR Holdings,Ivantoslav Babych,Biljayivka,10:12,Waukesha,16:49,4482.92
+229,Boise Cascade,Stanislava Atamanchuk,Dobroslav,04:46,Santa Rosa,03:12,6377.66
+230,Kerr-McGee,Pantelejmon Arkhymovych,Radyvyliv,05:32,La Porte,13:06,7518.82
+231,Alladin's Lamp,Sara Andrukhovych,Husjatyn,05:30,North Royalton,08:10,3163.93
+232,Broadcom,Naslav Adamovych,Korostyshiv,18:09,Chanhassen,13:09,1983.21
+233,Flexus,Inna Baljukh,Chuhuyiv,16:25,Greer,01:22,8473.57
+234,AmerisourceBergen,Malyk Antonenko,Javoriv,10:31,La Quinta,00:56,4713.31
+235,Dynegy,Dobroniha Bazavluchenko,Horodok,06:28,South Gate,08:06,4092.48
+236,Datacorp,Solomonija Andruntsiv,Jasynuvata,15:14,Port Angeles,18:00,5213.05
+237,Omni Source,Budymyl Artymovych,Varva,21:47,Roswell,21:54,6228.85
+238,Spherion,Valentyna Antonenko,Chernjakhiv,18:21,Lynbrook,21:45,5684.13
+239,Paxton Media Group,Anhelina Barbon,Dolyns'ka,13:26,McAlester,07:57,147.14
+240,Aleris International,Vodohraj Bazylevych,Tal'ne,14:56,Bullhead City,11:11,7780.64
+241,Omnicare,Barbara Bezushko,Kharkiv,16:44,Cortland,18:57,1603.03
+242,Dole Foods,Bronislava Bab'juk,Berdychiv,01:49,El Paso,09:36,3357.8
+243,A+ Investments,Anisij Batih,Rozhyshche,22:53,Agawam,15:14,8210.22
+244,Infinite Wealth Planners,Vitrjan Bajdak,Jahotyn,06:32,Mason,19:31,1084.18
+245,SBC Communications,Yeva Andrusiv,Putyvl',00:13,Klamath Falls,22:04,4480.21
+246,JCPenney,Ladomyla Artjukh,Jahotyn,03:15,Walnut Creek,17:36,7909.31
+247,Oberweis Dairy,Kapitolina Bajdak,Tarashcha,23:53,Lodi,04:33,4699.72
+248,Ultimate Software,Peremyla Belonovych,Pechenihy,06:45,Orem,03:38,1499.95
+249,Louisiana Pacific,Bilotur Anishchenko,Shyroke,00:08,Ottawa,06:54,7224.22
+250,Giant Food,Bazhan Antkiv,Stanytsja Luhans'ka,21:20,Simi Valley,05:50,3069.8
+251,Bain Capital,Harnoslav Anhelovych,Zaporizhzhja,10:52,Olive Branch,18:28,7210.21
+252,W. R. Grace and Company,Zinayida Baltacha,Novotroyits'ke,06:00,Mustang,20:25,6543.8
+253,Happy Family,Shchastyboh Bal',Izmayil,10:49,Waltham,12:26,3797.33
+254,Atari,Tatomyr Badrak,Brody,07:44,Nogales,11:24,4537.06
+255,Galaxy Man,Mahadar Babarychenko,Bershad',22:49,Palm Bay,13:59,1107.61
+256,Arkeia Software,Virodan Afanasenko,Luhyny,05:02,Lancaster,11:24,6665.0
+257,Mission Realty,Rostychara Balyka,Brusyliv,07:54,Panama City,13:38,4589.91
+258,Dun & Bradstreet,Viroslava Bezpel'chenko,Snovs'k,15:08,Davenport,05:59,2396.26
+259,Zephyr Investments,Kykylija Azhazha,Korosten',20:18,Eagle Mountain,14:01,1171.88
+260,Kroger,Hordoslav Bazhan,Lypovets',22:50,Bessemer,15:03,5163.58
+261,The Lawn Guru,Ljudyslav Basok,Mukacheve,01:53,Prescott,07:00,5179.87
+262,Sony Pictures Entertainment,Vitalina Avramenko,Arbuzynka,07:35,Syracuse,16:45,4970.52
+263,Life Map,Biljan Basanets',Novhorodka,09:34,Cottage Grove,12:30,8017.98
+264,Starbucks,Vitan Barbon,Velyka Bilozerka,00:48,Hempstead,15:19,2054.52
+265,Netgear,Blahodar Behma,Kovel',06:18,Parma Heights,00:42,126.19
+266,The Independent Planners,Antonyda Alchevs'ka,Brovary,03:52,Waco,10:35,3128.84
+267,Intercontinental Manufacturing Company,Ahlaja Bedzyk,Milove,15:42,Port Arthur,04:06,1656.69
+268,Wealth Zone Group,Khvalyboh Andrushkiv,Ichki,05:19,Burien,16:17,5579.09
+269,One-Up Realtors,Dobrysvit Bezpalyj,Zolotonosha,01:25,Scottsdale,02:36,2338.01
+270,Integra Wealth Planners,Radmyla Babych,Zolochiv,05:28,South Burlington,23:53,6011.68
+271,Multi Tech Development,Jaroslav Andrusiv,Storozhynets',22:30,Ashland,21:42,6495.08
+272,Aflac,Marharyta Bezushko,Fastiv,23:25,Ontario,02:00,6245.32
+273,Asian Plan,Fekla Balyts'kyj,Lutuhyne,14:42,Campbell,19:03,3396.54
+274,Allegheny Energy,Yeva Bahmut,Chernivtsi,15:53,Port Hueneme,05:43,5226.32
+275,Netobill,Svitoslava Bezpalkiv,Ochakiv,22:45,Troy,17:26,1981.71
+276,Brunswick Corporation,Oresta Bezuhlyj,Kovel',01:08,Gainesville,16:21,8708.76
+277,The Happy Bear,Judyt Bezus,Orikhiv,09:10,Kissimmee,16:05,690.51
+278,Friendly Advice,Hradymyr Bebeshko,Starobil's'k,05:12,West Sacramento,12:36,5613.02
+279,World of Fun,Eleonora Baturynets',Nyzhn'ohirs'kyj,10:23,Cincinnati,06:32,3816.68
+280,Broadcom,Marko Bel'kevych,Nova Vodolaha,06:58,Rutherford,23:50,5497.16
+281,Landskip Yard Care,Arsena Bezpal'ko,Husjatyn,01:30,Longview,13:22,6016.77
+282,Hoyden,Vseljub Belonovych,Karlivka,05:04,Manitowoc,01:32,162.37
+283,First Choice Yard Help,Anisij Bazavluchenko,Khust,13:47,Muskego,07:31,1594.23
+284,Kraft Foods,Orymyra Bezus,Starokostjantyniv,13:17,Eastlake,21:12,5793.73
+285,Go Daddy,Vseslav Artymyshyn,Seredyna-Buda,12:48,Rockford,06:53,5244.46
+286,Helios Air,Lystvych Azhazha,Staryj Sambir,13:31,Galesburg,06:05,5439.47
+287,The Independent Planners,Svjatoljuba Babich,Nyzhni Sirohozy,14:04,Winona,16:12,8913.99
+288,Sunny Real Estate Investments,Hradymyr Bezpalkiv,Zarichne,17:00,Patterson,09:56,8596.35
+289,Sur La Table,Sjuzanna Balej,Tjachiv,10:55,Augusta,02:04,7962.77
+290,Gas Zone,Zemfira Bazylevych,Apostolove,16:24,McAlester,10:55,5848.46
+291,Netstars Matrix Design,Klara Baranets',Baranivka,07:49,Fremont,17:23,5148.68
+292,Viacom,Rudana Azhazha,Pidvolochys'k,13:30,Wilkinsburg,07:36,4189.81
+293,Monmax,Lidija Artymovych,Korosten',20:14,Converse,13:59,6257.66
+294,Macroserve,Semen Atamanchuk,Horokhiv,02:42,North Olmsted,14:40,1370.65
+295,Supervalu,Bilotur Bazhan,Kompaniyivka,05:44,Richland,18:13,5351.65
+296,Mission You,Chestyslav Babeshko,Tal'ne,21:34,Port Chester,11:23,7273.93
+297,Lawn N' Order Garden Care,Ilona Antoniv,Nosivka,14:08,Whitehall,21:06,1684.4
+298,BNSF Railway,Viroslava Andriyenko,Sarata,03:17,Painesville,08:37,5603.65
+299,Vantec,Zorepad Bal',Karlivka,03:57,Hesperia,06:14,7165.86
+300,"Staples, Inc.",Hafija Benjuk,Novovorontsovka,16:51,Stamford,03:28,6878.73
