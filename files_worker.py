@@ -37,11 +37,15 @@ for i in range(300):
 
 def reader_csvdb() -> dict:
     dict_flew = {}
-    with open("schedules/schedule.csv", newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            dict_flew.update({row.get('Nomber'): row})
-    return dict_flew
+    try:
+        with open("schedules/schedule.csv", newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                dict_flew.update({row.get('Nomber'): row})
+        return dict_flew
+    except Exception as error:
+        print(f'Something WRONG! {error}')
+        raise error
 
 
 flew_db = reader_csvdb()
@@ -49,9 +53,13 @@ print(flew_db)
 
 
 def json_writer(flew_db: dict, directory: str) -> None:
-    with open(directory, "w") as fh:
-        json.dump(flew_db, fh, indent=4, sort_keys=True)
-    print('succes dumped!')
+    try:
+        with open(directory, "w") as fh:
+            json.dump(flew_db, fh, indent=4, sort_keys=True)
+        print('succes dumped!')
+    except Exception as error:
+        print(f'Something WRONG! {error}')
+        raise error
 
 
 json_writer(flew_db, "schedules/schedule.json")
