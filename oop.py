@@ -241,7 +241,7 @@ class Warriors:
         print(f'let`s the battle begin\n'
               f'There are {start_red} {len(Warriors.red_army)} warriors for RED ARMY{end_red} and{start_blue} '
               f'{len(Warriors.blue_army)} warriors for BLUE ARMY{finish_blue}')
-        while len(Warriors.red_army) != 0 or len(Warriors.blue_army) != 0:
+        while True:
             if len(Warriors.red_army) and len(Warriors.blue_army):
                 Warriors.fight_random()
                 print(f'left Warriors red army - {len(Warriors.red_army)}, '
