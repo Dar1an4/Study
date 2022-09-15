@@ -268,7 +268,7 @@ class Witcher(Warriors):
     witchers = 0
 
     def __init__(self, name, army, damage):
-        self.mana = 50
+        self.mana = 60
         self.health = 100
         self.mana_per_attack = 8
         self.mana_per_heal = 4
@@ -292,7 +292,7 @@ class Lancer(Warriors):
         Warriors.__init__(self, name, army, damage)
 
 
-Warriors.army_generator(1000)
+Warriors.army_generator(100)
 
 print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
 Warriors.war()
