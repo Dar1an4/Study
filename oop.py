@@ -89,7 +89,7 @@ class Warriors:
 
     @staticmethod
     def burn_mana_bleed_check() -> None:
-        """Checking if warrior burning, and decr mana"""
+        """Checking if warrior burning, or bleeding"""
         for warrior in Warriors.red_army:
             if warrior.burn:
                 damage = int(Witcher.burndamage * random.uniform(0.7, 1.1))
