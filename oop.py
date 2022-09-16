@@ -26,15 +26,16 @@ class Warriors:
     def __init__(self, name: str, army: str, damage: int) -> None:
         self.name = name
         self.army = army
+        self.damage = damage
         self.health = 100
         self.armor = 50
-        self.damage = damage
         self.burn = False
         self.bleeding = False
         Warriors.warriors += 1
 
     def getinfo(self) -> str:
         """Return info of stats entered warrior"""
+        print(f'Class of warrior is {str(type(self))[17:-2]}')
         if isinstance(self, Warriors):
             return f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'army - {self.army}'
@@ -293,8 +294,10 @@ Warriors.army_generator(50)
 attacker = random.choice(Warriors.red_army)
 defender = random.choice(Warriors.blue_army)
 
+attacker.getinfo()
+defender.getinfo()
 
 print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
-Warriors.war()
+
 
 print(f'{Warriors.red_attacks = }, {Warriors.blue_attacks = }')
