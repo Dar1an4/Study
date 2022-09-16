@@ -16,7 +16,7 @@ start_blue = "\033[1;36m"
 finish_blue = "\033[0;0m"
 
 
-class Warriors:
+class Warrior:
     red_army = []
     blue_army = []
     warriors = 0
@@ -31,12 +31,12 @@ class Warriors:
         self.armor = 50
         self.burn = False
         self.bleeding = False
-        Warriors.warriors += 1
+        Warrior.warriors += 1
 
     def getinfo(self) -> str:
         """Return info of stats entered warrior"""
         print()
-        if isinstance(self, Warriors):
+        if isinstance(self, Warrior):
             return f'Class of warrior is {str(type(self))[17:-2]}, ' \
                    f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'army - {self.army}'
@@ -60,40 +60,40 @@ class Warriors:
         for i in range(how_many_warriors):
             warrior1_name = person.first_name()
             warrior2_name = person.first_name()
-            warrior1 = Warriors(f'{warrior1_name}', army="red")
-            warrior2 = Warriors(f'{warrior2_name}', army="blue")
-            Warriors.red_army.append(warrior1)
-            Warriors.blue_army.append(warrior2)
+            warrior1 = Warrior(f'{warrior1_name}', army="red")
+            warrior2 = Warrior(f'{warrior2_name}', army="blue")
+            Warrior.red_army.append(warrior1)
+            Warrior.blue_army.append(warrior2)
         for i in range(how_many_witchers):
             warrior1_name = person.first_name()
             warrior2_name = person.first_name()
             warrior1 = Witcher(f'{warrior1_name}', army="red")
             warrior2 = Witcher(f'{warrior2_name}', army="blue")
-            Warriors.red_army.append(warrior1)
-            Warriors.blue_army.append(warrior2)
+            Warrior.red_army.append(warrior1)
+            Warrior.blue_army.append(warrior2)
         for i in range(how_many_lancers):
             warrior1_name = person.first_name()
             warrior2_name = person.first_name()
             warrior1 = Lancer(f'{warrior1_name}', army="red")
             warrior2 = Lancer(f'{warrior2_name}', army="blue")
-            Warriors.red_army.append(warrior1)
-            Warriors.blue_army.append(warrior2)
-        return [Warriors.blue_army, Warriors.red_army]
+            Warrior.red_army.append(warrior1)
+            Warrior.blue_army.append(warrior2)
+        return [Warrior.blue_army, Warrior.red_army]
 
     def check_hp(self) -> None:
         """Checking hp of a defender and kill him if necessary."""
         if self and self.health <= 0:
             if self.army == 'blue':
-                Warriors.blue_army.remove(self)
+                Warrior.blue_army.remove(self)
                 print(f'!!!!!!!!!!warrior{start_blue} {self.name} {finish_blue}  dead...!!!!!!!!!!')
             if self.army == 'red':
-                Warriors.red_army.remove(self)
+                Warrior.red_army.remove(self)
                 print(f'!!!!!!!!!!!warrior{start_red} {self.name} {end_red}  dead...!!!!!!!!!!!')
 
     @staticmethod
     def burn_mana_bleed_check() -> None:
         """Checking if warrior burning, or bleeding"""
-        for warrior in Warriors.red_army:
+        for warrior in Warrior.red_army:
             if warrior.burn:
                 damage = int(Witcher.BURNDAMAGE * random.uniform(0.7, 1.1))
                 warrior.health -= damage
@@ -106,7 +106,7 @@ class Warriors:
                 warrior.bleeding = False
                 print(f"{start_red}Ohhh warrior {warrior.name} is bleeding! - {damage} hp{end_red}")
                 warrior.check_hp()
-        for warrior in Warriors.blue_army:
+        for warrior in Warrior.blue_army:
             if warrior.burn:
                 damage = int(Witcher.BURNDAMAGE * random.uniform(0.7, 1.1))
                 warrior.health -= damage
@@ -147,19 +147,19 @@ class Warriors:
         if defender.health < 0:
             print(f'warrior {defender.name} {start_red} dead{end_red}...')
             if defender.army == 'blue':
-                Warriors.blue_army.remove(defender)
+                Warrior.blue_army.remove(defender)
             if defender.army == 'red':
-                Warriors.red_army.remove(defender)
+                Warrior.red_army.remove(defender)
 
     @staticmethod
     def fight_random() -> None:
         """Provide one round of random warriors fight one per one below incoming warriors
         working with generating army"""
         the_dice = random.randint(1, 100)
-        red_army = Warriors.red_army.copy()
-        blue_army = Warriors.blue_army.copy()
+        red_army = Warrior.red_army.copy()
+        blue_army = Warrior.blue_army.copy()
         if the_dice % 2 != 0:
-            Warriors.red_attacks += 1
+            Warrior.red_attacks += 1
             print(f'{start_red}RED ARMY ATTACKING{end_red}')
             attacker = random.choice(red_army)
             defender = random.choice(blue_army)
@@ -175,7 +175,7 @@ class Warriors:
                 defender2 = ''
                 defender3 = ''
         elif the_dice % 2 == 0:
-            Warriors.blue_attacks += 1
+            Warrior.blue_attacks += 1
             print(f'{start_blue}BLUE ARMY ATTACKING{finish_blue}')
             attacker = random.choice(blue_army)
             defender = random.choice(red_army)
@@ -203,31 +203,31 @@ class Warriors:
     def war() -> None:
         """Starting a big war below red and blue army, until one of them will be destroyed"""
         print(f'let`s the battle begin\n'
-              f'There are {start_red} {len(Warriors.red_army)} warriors for RED ARMY{end_red} and{start_blue} '
-              f'{len(Warriors.blue_army)} warriors for BLUE ARMY{finish_blue}')
+              f'There are {start_red} {len(Warrior.red_army)} warriors for RED ARMY{end_red} and{start_blue} '
+              f'{len(Warrior.blue_army)} warriors for BLUE ARMY{finish_blue}')
         while True:
-            if len(Warriors.red_army) and len(Warriors.blue_army):
-                Warriors.fight_random()
-                print(f'left Warriors red army - {len(Warriors.red_army)}, '
-                      f'left Warriors blue army - {len(Warriors.blue_army)}')
+            if len(Warrior.red_army) and len(Warrior.blue_army):
+                Warrior.fight_random()
+                print(f'left Warriors red army - {len(Warrior.red_army)}, '
+                      f'left Warriors blue army - {len(Warrior.blue_army)}')
             else:
                 break
-            Warriors.burn_mana_bleed_check()
-        if len(Warriors.red_army) == 0:
+            Warrior.burn_mana_bleed_check()
+        if len(Warrior.red_army) == 0:
             print(f"{start_blue}Blue army WIN!!!{finish_blue} Red army was totally destroyed\n"
                   f"That`s the list of alive warriors of {start_blue}blue army{finish_blue}:")
-            for number, name, in enumerate(Warriors.blue_army):
+            for number, name, in enumerate(Warrior.blue_army):
                 print(f' {start_purple} {number + 1}, {str(type(name))[17:-2]} {name.name}, '
                       f'left hp {name.health}  {finish_purple}')
-        if len(Warriors.blue_army) == 0:
+        if len(Warrior.blue_army) == 0:
             print(f"{start_red}Red army WIN!!!{end_red} Blue army was totally destroyed\n"
                   f"That`s the list of alive warriors of {start_red}red army{end_red}:")
-            for number, name in enumerate(Warriors.red_army):
+            for number, name in enumerate(Warrior.red_army):
                 print(f' {start_purple} {number + 1}, {str(type(name))[17:-2]} {name.name}, '
                       f'left hp {name.health}  {finish_purple}')
 
 
-class Witcher(Warriors):
+class Witcher(Warrior):
     BURNDAMAGE = 4
     witchers = 0
 
@@ -240,7 +240,7 @@ class Witcher(Warriors):
         self.burn = False
         self.bleeding = False
         Witcher.witchers += 1
-        Warriors.__init__(self, name, army)
+        Warrior.__init__(self, name, army)
         self.damage = 6
 
     def witcher_attack(self, defender) -> None:
@@ -256,18 +256,18 @@ class Witcher(Warriors):
             defender.check_hp()
         if self.mana >= self.mana_per_heal:
             if self.army == 'blue':
-                random_healing = random.choice(Warriors.blue_army)
+                random_healing = random.choice(Warrior.blue_army)
                 random_healing.health += int(self.hp_per_heal * random.uniform(0.7, 1.3))
                 print(f'{self.name} healing {random_healing.name}')
             if self.army == 'red':
-                random_healing = random.choice(Warriors.red_army)
+                random_healing = random.choice(Warrior.red_army)
                 random_healing.health += int(self.hp_per_heal * random.uniform(0.7, 1.3))
                 print(f'{self.name} healing {random_healing.name}')
             self.mana -= 5
         self.mana += 6
 
 
-class Lancer(Warriors):
+class Lancer(Warrior):
     BLEEDDAMAGE = 6
     lancers = 0
 
@@ -277,7 +277,7 @@ class Lancer(Warriors):
         self.burn = False
         self.bleeding = False
         Lancer.lancers += 1
-        Warriors.__init__(self, name, army)
+        Warrior.__init__(self, name, army)
         self.damage = 12
 
     def lancer_attack(self, defender):
@@ -294,20 +294,20 @@ class Lancer(Warriors):
         defender.check_hp()
 
 
-Warriors.army_generator(5)
+Warrior.army_generator(5)
 
-attacker = random.choice(Warriors.red_army)
-defender = random.choice(Warriors.blue_army)
+attacker = random.choice(Warrior.red_army)
+defender = random.choice(Warrior.blue_army)
 
 print(attacker.getinfo())
 print(defender.getinfo())
 
-print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
+print(f'{Warrior.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
 
 
 Witcher.war()
 
-print(f'{Warriors.red_attacks = }, {Warriors.blue_attacks = }')
+print(f'{Warrior.red_attacks = }, {Warrior.blue_attacks = }')
 
 
 
