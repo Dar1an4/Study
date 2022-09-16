@@ -50,6 +50,44 @@ class Warrior:
                    f'mana - {self.mana}, army - {self.army}, burn damage - {Witcher.BURNDAMAGE}, ' \
                    f'hp healing - {self.hp_per_heal}'
 
+    def check_hp(self) -> None:
+        """Checking hp of a defender and kill him if necessary."""
+        if self and self.health <= 0:
+            if self.army == 'blue':
+                Warrior.blue_army.remove(self)
+                print(f'!!!!!!!!!!warrior{start_blue} {self.name} {finish_blue}  dead...!!!!!!!!!!')
+            if self.army == 'red':
+                Warrior.red_army.remove(self)
+                print(f'!!!!!!!!!!!warrior{start_red} {self.name} {end_red}  dead...!!!!!!!!!!!')
+
+    def warrior_attack(self, defender):
+        armordamage = 0 if defender.armor <= 0 else round(self.damage * random.uniform(0.3, 0.5))
+        hpdamage = round((self.damage * random.uniform(0.89, 1.1))) - armordamage
+        if self.health in range(0, 10):
+            hpdamage = round(hpdamage * random.uniform(1.5, 3))
+            armordamage = round(armordamage * random.uniform(1.5, 3))
+            print('!!!CRITICAL DAMAGE!!!')
+        if isinstance(defender, Lancer):
+            hpdamage = 0 if (random.randint(0, 10) % 3 == 0) else hpdamage
+            if hpdamage == 0:
+                print('!!!MISS ATTACK!!!')
+        defender.armor -= armordamage
+        defender.health -= hpdamage
+        print(f'WARRIOR {self.name} gave {start_yellow}{hpdamage}{finish_yellow} hp damage to {defender.name}\n'
+              f'{defender.name} hp left - {start_green}{defender.health}{finish_green} hp')
+        defender.check_hp()
+
+    def fight_personal(self, defender) -> None:
+        """Provide one round of warriors fight one per one below incoming warriors
+        working with incoming warriors"""
+        armordamage = 0 if defender.armor <= 0 else round(self.damage * random.uniform(0.3, 0.5))
+        hpdamage = round((self.damage * random.uniform(0.89, 1.2))) - armordamage
+        defender.armor -= armordamage
+        defender.health -= hpdamage
+        print(f'{self.name} gave {start_yellow}{hpdamage}{finish_yellow} hp damage to {defender.name}\n'
+              f'{defender.name} hp left - {start_green}{defender.health}{finish_green} hp')
+        defender.check_hp()
+
     @staticmethod
     def army_generator(input_warriors: int) -> list:
         """Army Generator for both sides. amount of warriors is equal for both sides """
@@ -80,16 +118,6 @@ class Warrior:
             Warrior.blue_army.append(warrior2)
         return [Warrior.blue_army, Warrior.red_army]
 
-    def check_hp(self) -> None:
-        """Checking hp of a defender and kill him if necessary."""
-        if self and self.health <= 0:
-            if self.army == 'blue':
-                Warrior.blue_army.remove(self)
-                print(f'!!!!!!!!!!warrior{start_blue} {self.name} {finish_blue}  dead...!!!!!!!!!!')
-            if self.army == 'red':
-                Warrior.red_army.remove(self)
-                print(f'!!!!!!!!!!!warrior{start_red} {self.name} {end_red}  dead...!!!!!!!!!!!')
-
     @staticmethod
     def burn_mana_bleed_check() -> None:
         """Checking if warrior burning, or bleeding"""
@@ -119,34 +147,6 @@ class Warrior:
                 warrior.bleeding = False
                 print(f"{start_red}Ohhh warrior {warrior.name} is bleeding! - {damage} hp{end_red}")
                 warrior.check_hp()
-
-    def warrior_attack(self, defender):
-        armordamage = 0 if defender.armor <= 0 else round(self.damage * random.uniform(0.3, 0.5))
-        hpdamage = round((self.damage * random.uniform(0.89, 1.1))) - armordamage
-        if self.health in range(0, 10):
-            hpdamage = round(hpdamage * random.uniform(1.5, 3))
-            armordamage = round(armordamage * random.uniform(1.5, 3))
-            print('!!!CRITICAL DAMAGE!!!')
-        if isinstance(defender, Lancer):
-            hpdamage = 0 if (random.randint(0, 10) % 3 == 0) else hpdamage
-            if hpdamage == 0:
-                print('!!!MISS ATTACK!!!')
-        defender.armor -= armordamage
-        defender.health -= hpdamage
-        print(f'WARRIOR {self.name} gave {start_yellow}{hpdamage}{finish_yellow} hp damage to {defender.name}\n'
-              f'{defender.name} hp left - {start_green}{defender.health}{finish_green} hp')
-        defender.check_hp()
-
-    def fight_personal(self, defender) -> None:
-        """Provide one round of warriors fight one per one below incoming warriors
-        working with incoming warriors"""
-        armordamage = 0 if defender.armor <= 0 else round(self.damage * random.uniform(0.3, 0.5))
-        hpdamage = round((self.damage * random.uniform(0.89, 1.2))) - armordamage
-        defender.armor -= armordamage
-        defender.health -= hpdamage
-        print(f'{self.name} gave {start_yellow}{hpdamage}{finish_yellow} hp damage to {defender.name}\n'
-              f'{defender.name} hp left - {start_green}{defender.health}{finish_green} hp')
-        defender.check_hp()
 
     @staticmethod
     def fight_random() -> None:
