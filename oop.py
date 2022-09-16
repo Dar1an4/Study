@@ -126,8 +126,11 @@ class Warrior:
         if self.health in range(0, 10):
             hpdamage = round(hpdamage * random.uniform(1.5, 3))
             armordamage = round(armordamage * random.uniform(1.5, 3))
+            print('!!!CRITICAL DAMAGE!!!')
         if isinstance(defender, Lancer):
             hpdamage = 0 if (random.randint(0, 10) % 3 == 0) else hpdamage
+            if hpdamage == 0:
+                print('!!!MISS ATTACK!!!')
         defender.armor -= armordamage
         defender.health -= hpdamage
         print(f'WARRIOR {self.name} gave {start_yellow}{hpdamage}{finish_yellow} hp damage to {defender.name}\n'
@@ -278,7 +281,9 @@ class Lancer(Warrior):
         armordamage = 0 if defender.armor <= 0 else round(self.damage * random.uniform(0.3, 0.5))
         hpdamage = round((self.damage * random.uniform(0.89, 1.2))) - armordamage
         if isinstance(defender, Lancer):
-            hpdamage = 0 if (random.randint(0, 9) % 3 == 0) else hpdamage
+            hpdamage = 0 if (random.randint(0, 10) % 3 == 0) else hpdamage
+            if hpdamage == 0:
+                print('!!!MISS ATTACK!!!')
         defender.bleeding = True
         defender.armor -= armordamage
         defender.health -= hpdamage
@@ -288,7 +293,7 @@ class Lancer(Warrior):
         defender.check_hp()
 
 
-Warrior.army_generator(10)
+Warrior.army_generator(100)
 
 attacker = random.choice(Warrior.red_army)
 defender = random.choice(Warrior.blue_army)
