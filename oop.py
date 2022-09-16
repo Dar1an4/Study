@@ -35,15 +35,18 @@ class Warriors:
 
     def getinfo(self) -> str:
         """Return info of stats entered warrior"""
-        print(f'Class of warrior is {str(type(self))[17:-2]}')
+        print()
         if isinstance(self, Warriors):
-            return f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
+            return f'Class of warrior is {str(type(self))[17:-2]}' \
+                   f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'army - {self.army}'
         elif isinstance(self, Lancer):
-            return f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
+            return f'Class of warrior is {str(type(self))[17:-2]}' \
+                   f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'army - {self.army}, bleeding damage - {Lancer.bleeddamage}'
         elif isinstance(self, Witcher):
-            return f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
+            return f'Class of warrior is {str(type(self))[17:-2]}' \
+                   f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'mana - {self.mana}, army - {self.army}, burn damage - {Witcher.burndamage}, ' \
                    f'hp healing - {self.hp_per_heal}'
 
@@ -294,10 +297,10 @@ Warriors.army_generator(50)
 attacker = random.choice(Warriors.red_army)
 defender = random.choice(Warriors.blue_army)
 
-attacker.getinfo()
-defender.getinfo()
+print(attacker.getinfo())
+print(defender.getinfo())
 
-print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
-
-
-print(f'{Warriors.red_attacks = }, {Warriors.blue_attacks = }')
+# print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
+#
+#
+# print(f'{Warriors.red_attacks = }, {Warriors.blue_attacks = }')
