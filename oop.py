@@ -257,7 +257,7 @@ class Witcher(Warrior):
                 random_healing = random.choice(Warrior.red_army)
                 random_healing.health += round(self.hp_per_heal * random.uniform(0.7, 1.3))
                 print(f'{self.name} healing {random_healing.name}')
-            self.mana -= 5
+            self.mana -= self.mana_per_heal
         self.mana += 6
 
 
