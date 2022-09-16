@@ -23,10 +23,10 @@ class Warriors:
     red_attacks = 0
     blue_attacks = 0
 
-    def __init__(self, name: str, army: str, damage: int) -> None:
+    def __init__(self, name: str, army: str) -> None:
         self.name = name
         self.army = army
-        self.damage = damage
+        self.damage = 20
         self.health = 100
         self.armor = 50
         self.burn = False
@@ -60,22 +60,22 @@ class Warriors:
         for i in range(how_many_warriors):
             warrior1_name = person.first_name()
             warrior2_name = person.first_name()
-            warrior1 = Warriors(f'{warrior1_name}', army="red", damage=20)
-            warrior2 = Warriors(f'{warrior2_name}', army="blue", damage=20)
+            warrior1 = Warriors(f'{warrior1_name}', army="red")
+            warrior2 = Warriors(f'{warrior2_name}', army="blue")
             Warriors.red_army.append(warrior1)
             Warriors.blue_army.append(warrior2)
         for i in range(how_many_witchers):
             warrior1_name = person.first_name()
             warrior2_name = person.first_name()
-            warrior1 = Witcher(f'{warrior1_name}', army="red", damage=6)
-            warrior2 = Witcher(f'{warrior2_name}', army="blue", damage=6)
+            warrior1 = Witcher(f'{warrior1_name}', army="red")
+            warrior2 = Witcher(f'{warrior2_name}', army="blue")
             Warriors.red_army.append(warrior1)
             Warriors.blue_army.append(warrior2)
         for i in range(how_many_lancers):
             warrior1_name = person.first_name()
             warrior2_name = person.first_name()
-            warrior1 = Lancer(f'{warrior1_name}', army="red", damage=12)
-            warrior2 = Lancer(f'{warrior2_name}', army="blue", damage=12)
+            warrior1 = Lancer(f'{warrior1_name}', army="red")
+            warrior2 = Lancer(f'{warrior2_name}', army="blue")
             Warriors.red_army.append(warrior1)
             Warriors.blue_army.append(warrior2)
         return [Warriors.blue_army, Warriors.red_army]
@@ -231,7 +231,7 @@ class Witcher(Warriors):
     BURNDAMAGE = 4
     witchers = 0
 
-    def __init__(self, name, army, damage):
+    def __init__(self, name: str, army: str) -> None:
         self.mana = 60
         self.health = 100
         self.mana_per_attack = 8
@@ -240,7 +240,8 @@ class Witcher(Warriors):
         Witcher.witchers += 1
         self.burn = False
         self.bleeding = False
-        Warriors.__init__(self, name, army, damage)
+        Warriors.__init__(self, name, army)
+        self.damage = 6
 
     def witcher_attack(self, defender) -> None:
         """Provide witcher attacking"""
@@ -270,13 +271,14 @@ class Lancer(Warriors):
     BLEEDDAMAGE = 6
     lancers = 0
 
-    def __init__(self, name, army, damage):
+    def __init__(self, name: str, army: str) -> None:
         self.health = 100
         self.armor = 30
         self.burn = False
         self.bleeding = False
         Lancer.lancers += 1
-        Warriors.__init__(self, name, army, damage)
+        Warriors.__init__(self, name, army)
+        self.damage = 12
 
     def lancer_attack(self, defender):
         armordamage = 0 if defender.armor <= 0 else int(self.damage * random.uniform(0.3, 0.5))
@@ -292,13 +294,15 @@ class Lancer(Warriors):
         defender.check_hp()
 
 
-Warriors.army_generator(50)
+Warriors.army_generator(5)
 
 attacker = random.choice(Warriors.red_army)
 defender = random.choice(Warriors.blue_army)
 
+
 print(attacker.getinfo())
 print(defender.getinfo())
+Witcher.war()
 
 # print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
 #
