@@ -227,8 +227,8 @@ class Witcher(Warrior):
 
     def __init__(self, name: str, army: str) -> None:
         self.mana = 60
-        self.health = 100
         self.mana_per_attack = 8
+        self.mana_regen = 6
         self.mana_per_heal = 5
         self.hp_per_heal = 6
         self.burn = False
@@ -236,6 +236,7 @@ class Witcher(Warrior):
         Witcher.witchers += 1
         Warrior.__init__(self, name, army)
         self.damage = 6
+        self.armor = 10
 
     def witcher_attack(self, defender) -> None:
         """Provide witcher attacking"""
@@ -258,7 +259,7 @@ class Witcher(Warrior):
                 random_healing.health += round(self.hp_per_heal * random.uniform(0.7, 1.3))
                 print(f'{self.name} healing {random_healing.name}')
             self.mana -= self.mana_per_heal
-        self.mana += 6
+        self.mana += self.mana_regen
 
 
 class Lancer(Warrior):
@@ -266,13 +267,12 @@ class Lancer(Warrior):
     lancers = 0
 
     def __init__(self, name: str, army: str) -> None:
-        self.health = 100
-        self.armor = 30
         self.burn = False
         self.bleeding = False
         Lancer.lancers += 1
         Warrior.__init__(self, name, army)
         self.damage = 12
+        self.armor = 30
 
     def lancer_attack(self, defender):
         armordamage = 0 if defender.armor <= 0 else round(self.damage * random.uniform(0.3, 0.5))
