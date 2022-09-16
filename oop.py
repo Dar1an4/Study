@@ -43,11 +43,11 @@ class Warriors:
         elif isinstance(self, Lancer):
             return f'Class of warrior is {str(type(self))[17:-2]}, ' \
                    f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
-                   f'army - {self.army}, bleeding damage - {Lancer.bleeddamage}'
+                   f'army - {self.army}, bleeding damage - {Lancer.BLEEDDAMAGE}'
         elif isinstance(self, Witcher):
             return f'Class of warrior is {str(type(self))[17:-2]}, ' \
                    f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
-                   f'mana - {self.mana}, army - {self.army}, burn damage - {Witcher.burndamage}, ' \
+                   f'mana - {self.mana}, army - {self.army}, burn damage - {Witcher.BURNDAMAGE}, ' \
                    f'hp healing - {self.hp_per_heal}'
 
     @staticmethod
@@ -95,26 +95,26 @@ class Warriors:
         """Checking if warrior burning, or bleeding"""
         for warrior in Warriors.red_army:
             if warrior.burn:
-                damage = int(Witcher.burndamage * random.uniform(0.7, 1.1))
+                damage = int(Witcher.BURNDAMAGE * random.uniform(0.7, 1.1))
                 warrior.health -= damage
                 warrior.burn = False
                 print(f"{start_red}Ohhh warrior {warrior.name} is burning! - {damage} hp{end_red}")
                 warrior.check_hp()
             if warrior.bleeding:
-                damage = int(Lancer.bleeddamage * random.uniform(0.8, 1.3))
+                damage = int(Lancer.BLEEDDAMAGE * random.uniform(0.8, 1.3))
                 warrior.health -= damage
                 warrior.bleeding = False
                 print(f"{start_red}Ohhh warrior {warrior.name} is bleeding! - {damage} hp{end_red}")
                 warrior.check_hp()
         for warrior in Warriors.blue_army:
             if warrior.burn:
-                damage = int(Witcher.burndamage * random.uniform(0.7, 1.1))
+                damage = int(Witcher.BURNDAMAGE * random.uniform(0.7, 1.1))
                 warrior.health -= damage
                 warrior.burn = False
                 print(f"{start_red} Ohhh warrior {warrior.name} is burning! - {damage} hp{end_red}")
                 warrior.check_hp()
             if warrior.bleeding:
-                damage = int(Lancer.bleeddamage * random.uniform(0.8, 1.3))
+                damage = int(Lancer.BLEEDDAMAGE * random.uniform(0.8, 1.3))
                 warrior.health -= damage
                 warrior.bleeding = False
                 print(f"{start_red}Ohhh warrior {warrior.name} is bleeding! - {damage} hp{end_red}")
@@ -228,7 +228,7 @@ class Warriors:
 
 
 class Witcher(Warriors):
-    burndamage = 4
+    BURNDAMAGE = 4
     witchers = 0
 
     def __init__(self, name, army, damage):
@@ -267,7 +267,7 @@ class Witcher(Warriors):
 
 
 class Lancer(Warriors):
-    bleeddamage = 6
+    BLEEDDAMAGE = 6
     lancers = 0
 
     def __init__(self, name, army, damage):
