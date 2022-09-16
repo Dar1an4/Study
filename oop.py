@@ -235,11 +235,11 @@ class Witcher(Warriors):
         self.mana = 60
         self.health = 100
         self.mana_per_attack = 8
-        self.mana_per_heal = 4
-        self.hp_per_heal = 10
-        Witcher.witchers += 1
+        self.mana_per_heal = 5
+        self.hp_per_heal = 6
         self.burn = False
         self.bleeding = False
+        Witcher.witchers += 1
         Warriors.__init__(self, name, army)
         self.damage = 6
 
