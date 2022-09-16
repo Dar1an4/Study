@@ -37,15 +37,15 @@ class Warriors:
         """Return info of stats entered warrior"""
         print()
         if isinstance(self, Warriors):
-            return f'Class of warrior is {str(type(self))[17:-2]}' \
+            return f'Class of warrior is {str(type(self))[17:-2]}, ' \
                    f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'army - {self.army}'
         elif isinstance(self, Lancer):
-            return f'Class of warrior is {str(type(self))[17:-2]}' \
+            return f'Class of warrior is {str(type(self))[17:-2]}, ' \
                    f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'army - {self.army}, bleeding damage - {Lancer.bleeddamage}'
         elif isinstance(self, Witcher):
-            return f'Class of warrior is {str(type(self))[17:-2]}' \
+            return f'Class of warrior is {str(type(self))[17:-2]}, ' \
                    f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'mana - {self.mana}, army - {self.army}, burn damage - {Witcher.burndamage}, ' \
                    f'hp healing - {self.hp_per_heal}'
