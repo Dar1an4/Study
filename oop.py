@@ -299,12 +299,15 @@ Warriors.army_generator(5)
 attacker = random.choice(Warriors.red_army)
 defender = random.choice(Warriors.blue_army)
 
-
 print(attacker.getinfo())
 print(defender.getinfo())
+
+print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
+
+
 Witcher.war()
 
-# print(f'{Warriors.warriors = }{Lancer.lancers = }, {Witcher.witchers = }')
-#
-#
-# print(f'{Warriors.red_attacks = }, {Warriors.blue_attacks = }')
+print(f'{Warriors.red_attacks = }, {Warriors.blue_attacks = }')
+
+
+
