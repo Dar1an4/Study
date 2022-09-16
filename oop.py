@@ -35,6 +35,7 @@ class Warriors:
 
     def getinfo(self) -> str:
         """Return info of stats entered warrior"""
+        print(f'its {str(type(self))[17:-2]} class')
         if isinstance(self, Warriors):
             return f'name - {self.name}, health - {self.health}, armor - {self.armor}, damage - {self.damage}, ' \
                    f'army - {self.army}'
