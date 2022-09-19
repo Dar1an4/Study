@@ -107,7 +107,7 @@ class Witcher(Unit):
         self.mana_per_heal = 5  # spent mana per one healing of one brother in arms
         self.hp_per_heal = 6  # how many hp healing the Witcher per one heal
         self.damage = 6
-        self.armor = 10
+        self.armor = 15
         Witcher.witchers += 1
 
     def witcher_attack(self, defender) -> None:
@@ -176,7 +176,8 @@ class War:
         for i in range(how_many_warriors):
             person = Person('en')
             warrior1_name = person.first_name()
-            warrior1 = warrior_class(f'{warrior1_name}', army=warrior_army)
+            army = 'blue' if warrior_army is War.blue_army else 'red'
+            warrior1 = warrior_class(f'{warrior1_name}', army=army)
             warrior_army.append(warrior1)
 
     @staticmethod
@@ -292,5 +293,7 @@ War.army_generator(10)
 
 # attacker = random.choice(War.red_army)
 # defender = random.choice(War.blue_army)
+#
+# print(Unit.getinfo(attacker))
 
 War.war()
