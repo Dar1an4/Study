@@ -78,13 +78,13 @@ class Warrior(Unit):
 
     def warrior_attack(self, defender):
         armordamage = 0 if defender.armor <= 0 else \
-            round(self.damage * random.uniform(0.3, 0.5))  # if more than 0 - counting armor absorption of damage (species)
+            round(self.damage * random.uniform(0.3, 0.5))  # if more than 0 - counting armor absorption of damage
         hpdamage = round((self.damage * random.uniform(0.89, 1.1))) - armordamage
-        if self.health in range(0, 10):  # if hp less than 10 - class warrior given critical damage (species)
+        if self.health in range(0, 15):  # if hp less than 10 - class warrior given critical damage (species)
             hpdamage = round(hpdamage * random.uniform(1.5, 3))
             armordamage = round(armordamage * random.uniform(1.5, 3))
             print('!!!CRITICAL DAMAGE!!!')
-        if isinstance(defender, Lancer):    # ~1:3 chance for lancer to dodge attack
+        if isinstance(defender, Lancer):    # ~1:3 chance for lancer to dodge attack (species)
             hpdamage = 0 if (random.randint(0, 10) % 3 == 0) else hpdamage
             if hpdamage == 0:
                 print('!!!MISS ATTACK!!!')
