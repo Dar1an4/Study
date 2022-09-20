@@ -58,7 +58,7 @@ class Unit:
         """Provide one round of warriors fight one per one below incoming warriors
         working with incoming warriors"""
         armordamage = 0 if defender.armor <= 0 else \
-            round(self.damage * random.uniform(0.3, 0.5))  # if more than 0 - counting armor absorption of damage (species)
+            round(self.damage * random.uniform(0.3, 0.5))  # if more than 0 - counting armor absorption of damage
         hpdamage = round((self.damage * random.uniform(0.89, 1.2))) - armordamage
         defender.armor -= armordamage
         defender.health -= hpdamage
@@ -80,7 +80,7 @@ class Warrior(Unit):
         armordamage = 0 if defender.armor <= 0 else \
             round(self.damage * random.uniform(0.3, 0.5))  # if more than 0 - counting armor absorption of damage
         hpdamage = round((self.damage * random.uniform(0.89, 1.1))) - armordamage
-        if self.health in range(0, 15):  # if hp less than 10 - class warrior given critical damage (species)
+        if self.health in range(0, 15):  # if hp less than 15 - class warrior given critical damage (species)
             hpdamage = round(hpdamage * random.uniform(1.5, 3))
             armordamage = round(armordamage * random.uniform(1.5, 3))
             print('!!!CRITICAL DAMAGE!!!')
@@ -135,7 +135,7 @@ class Witcher(Unit):
 
 
 class Lancer(Unit):
-    BLEEDDAMAGE = 6  # every attack Lancer class main the opponent, and  blood loss
+    BLEEDDAMAGE = 6  # every attack Lancer class injure the opponent, and  blood loss
     lancers = 0
 
     def __init__(self, name: str, army: str) -> None:
